@@ -1,0 +1,87 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "MyCommunityTestSteps.IFill(String,String)",
+      "args": [
+        "<userName>",
+        "<pass>"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 5222
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "button.submit"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 982
+    },
+    {
+      "commandName": "PerfectoDeviceSteps.takeScreenshot()",
+      "result": "passed",
+      "subLogs": [],
+      "duration": 1722
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I fill user \"<userName>\" and password \"<pass>\"",
+      "type": "TestStepPass",
+      "duration": 5222,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_17vvpxxcpr35g60726.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When  I click on \"button.submit\"",
+      "type": "TestStepPass",
+      "duration": 982,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_17vvpxxcpr35g60726.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then  I take a screenshot",
+      "type": "TestStepPass",
+      "duration": 1722,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_17vvpxxcpr35g60726.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+      "type": "Pass",
+      "screenshot": "img/feature_17vvpxxcpr35g60726.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "amtrak-test_amtrak---buy-ticket",
+        "name": "Amtrak test-amtrak - buy ticket",
+        "groups": [
+          "@amtrak1",
+          "@amtrak"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475595241446,
+      "duration": 26628,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "amtrak-test_amtrak---buy-ticket",
+        "name": "Amtrak test-amtrak - buy ticket",
+        "groups": [
+          "@amtrak1",
+          "@amtrak"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475595244049,
+      "duration": 31984,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "amtrak-test_amtrak---buy-ticket",
+        "name": "Amtrak test-amtrak - buy ticket",
+        "groups": [
+          "@amtrak1",
+          "@amtrak"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475595245545,
+      "duration": 31932,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "amtrak-test_amtrak---buy-ticket",
+        "name": "Amtrak test-amtrak - buy ticket",
+        "groups": [
+          "@amtrak1",
+          "@amtrak"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475595242144,
+      "duration": 42259,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

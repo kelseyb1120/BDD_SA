@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testSteps>
+    <testStep description="wait until {0} value is {1}" name="WAITFORVALUE" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.Object"/>
+    </testStep>
+    <testStep description="assert {0} text is not {1}" name="ASSERTNOTTEXT" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} to be enable" name="WAITFORENABLED" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert link with text {0} is present" name="ASSERTLINKWITHTEXTPRESENT" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} is disable" name="ASSERTDISABLED" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} is visible" name="VERIFYVISIBLE" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="user post {0} for resource {1}" name="POSTCONTENT" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="add cookie {0} with value {1}" name="ADDCOOKIE" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="get a cookie with a name {0}" name="GETCOOKIEVALUE" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} property {1} value is not {2}" name="VERIFYNOTCSSSTYLE" noOfaArgs="3" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} value is not {1}" name="WAITFORNOTVALUE" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.Object"/>
+    </testStep>
+    <testStep description="response should have status {0}" name="IT_SHOULD_HAVE_RESPONSE" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} text is not {1}" name="VERIFYNOTTEXT" noOfaArgs="2" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} not present" name="VERIFYNOTPRESENT" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} css class name is {1}" name="ASSERTCSSCLASS" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} value is {1}" name="VERIFYVALUE" noOfaArgs="2" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.Object"/>
+    </testStep>
+    <testStep description="verify {0} css class name is {1}" name="VERIFYCSSCLASS" noOfaArgs="2" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} value is not {1}" name="ASSERTNOTVALUE" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.Object"/>
+    </testStep>
+    <testStep description="delete cookie with name {0}" name="DELETECOOKIE" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="store into {0}" name="STORELASTSTEPRESULTINTO" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} property {1} value is {2}" name="ASSERTCSSSTYLE" noOfaArgs="3" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} text is not {1}" name="WAITFORNOTTEXT" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} is not present" name="WAITFORNOTPRESENT" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="stop (transaction|time-tracker)" name="STOPTRANSACTION" noOfaArgs="0" returns="void"/>
+    <testStep description="verify {0} attribute {1} value is {2}" name="VERIFYATTRIBUTE" noOfaArgs="3" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} property {1} value is not {2}" name="WAITFORNOTCSSSTYLE" noOfaArgs="3" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} attribute {1} value is not {2}" name="ASSERTNOTATTRIBUTE" noOfaArgs="3" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="response should have xpath {0}" name="RESPONSE_SHOULD_HAVE_XPATH" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} property {1} value is {2}" name="WAITFORCSSSTYLE" noOfaArgs="3" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify link with text {0} is present" name="VERIFYLINKWITHTEXTPRESENT" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="get {0}" name="GET" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} property {1} value is {2}" name="VERIFYCSSSTYLE" noOfaArgs="3" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="click on {0}" name="CLICK" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} css class name is not {1}" name="VERIFYNOTCSSCLASS" noOfaArgs="2" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert link with partial text {0} is present" name="ASSERTLINKWITHPARTIALTEXTPRESENT" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="get text of {0}" name="GETTEXT" noOfaArgs="1" returns="java.lang.String">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} text is {1}" name="VERIFYTEXT" noOfaArgs="2" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} is not selected" name="VERIFYNOTSELECTED" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify link with partial text {0} is present" name="VERIFYLINKWITHPARTIALTEXTPRESENT" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} attribute {1} value is {2}" name="ASSERTATTRIBUTE" noOfaArgs="3" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="user request for resource {0} with {1}" name="REQUESTFORRESOURCEWITHPARAMS" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.util.Map"/>
+    </testStep>
+    <testStep description="assert {0} is not present" name="ASSERTNOTPRESENT" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="COMMENT: {0}" name="COMMENT" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.Object"/>
+    </testStep>
+    <testStep description="mouse move on {0}" name="MOUSEOVER" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} is selected" name="ASSERTSELECTED" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="set {0} attribute {1} value is {2}" name="SETATTRIBUTE" noOfaArgs="3" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} attribute {1} value is not {2}" name="VERIFYNOTATTRIBUTE" noOfaArgs="3" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} not to be visible" name="WAITFORNOTVISIBLE" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} is not visible" name="ASSERTNOTVISIBLE" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} css class name is {1}" name="WAITFORCSSCLASS" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} is not selected" name="ASSERTNOTSELECTED" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} value is not {1}" name="VERIFYNOTVALUE" noOfaArgs="2" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.Object"/>
+    </testStep>
+    <testStep description="wait until {0} to be disable" name="WAITFORDISABLED" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} is enable" name="ASSERTENABLED" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} is present" name="ASSERTPRESENT" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} not visible" name="VERIFYNOTVISIBLE" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} is present" name="VERIFYPRESENT" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="user request for resource {0}" name="REQUESTFORRESOURCE" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} disabled" name="VERIFYDISABLED" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} text is {1}" name="ASSERTTEXT" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} css class name is not {1}" name="WAITFORNOTCSSCLASS" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="start (transaction|time-tracker) for {task-name} with {second}s threshold" name="STARTTRANSACTION" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="int"/>
+    </testStep>
+    <testStep description="assert {0} property {1} value is not {2}" name="ASSERTNOTCSSSTYLE" noOfaArgs="3" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} attribute {1} value is not {2}" name="WAITFORNOTATTRIBUTE" noOfaArgs="3" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="delete all cookies" name="DELETEALLCOOKIES" noOfaArgs="0" returns="void"/>
+    <testStep description="verify {0} is selected" name="VERIFYSELECTED" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} css class name is not {1}" name="ASSERTNOTCSSCLASS" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} text {1}" name="WAITFORTEXT" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="sendKeys {0} into {1}" name="SENDKEYS" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} to be visible" name="WAITFORVISIBLE" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} is visible" name="ASSERTVISIBLE" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="submit {0}" name="SUBMIT" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="switch to {0} window" name="SWITCHTOWINDOW" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="service endpoint is {0}" name="SETSERVICEENDPOINT" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="store {0} into {1}" name="STORE" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.Object"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} for attribute {1} value is {2}" name="WAITFORATTRIBUTE" noOfaArgs="3" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+        <arg index="2" type="java.lang.String"/>
+    </testStep>
+    <testStep description="assert {0} value is {1}" name="ASSERTVALUE" noOfaArgs="2" returns="void">
+        <arg index="0" type="java.lang.String"/>
+        <arg index="1" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} to be present" name="WAITFORPRESENT" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} is not selected" name="WAITFORNOTSELECTED" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="verify {0} enabled" name="VERIFYENABLED" noOfaArgs="1" returns="boolean">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="wait until {0} to be selected" name="WAITFORSELECTED" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+    <testStep description="clear {0}" name="CLEAR" noOfaArgs="1" returns="void">
+        <arg index="0" type="java.lang.String"/>
+    </testStep>
+</testSteps>

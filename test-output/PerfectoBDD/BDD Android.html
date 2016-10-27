@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>TestNG:  BDD Android</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Android</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 19 10:52:55 EDT 2016</td>
+</tr>
+<tr><td>Total time:</td><td>106 seconds (106919 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.perfectomobile.quantum.java.tests.audio.PMTL.ebay()'><b>ebay</b><br>Test class: com.perfectomobile.quantum.java.tests.audio.PMTL<br/>
+<a href="#Output-2075938739" onClick='toggleBox("Output-2075938739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075938739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075938739">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Attempt to use a closed device
+Command duration or timeout: 33 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;UziMac.fios-router.home&apos;, ip: &apos;192.168.1.155&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{rotatable=true, testGridReportUrl=https://DUMMY_SSO_TENANT_ID.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-19_14_52_58_2, entityType=remote_web_driver, serverConnector=, deviceName=A5E58152551801914DF137179CCE414D7459E610, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-19_14_52_58_2, password=, webdriver.remote.sessionid=8490798c-81ad-4d8e-80c4-92f943417df2, automationName=Appium, host=adam-test.perfectomobile.com, singleTestReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-19_14_52_58_2.xml&amp;ownerId=uzie@perfectomobile.com&amp;sharingCode=97d532ae-43bb-423c-9419-030740871da6, locationContextEnabled=true, scriptName=RemoteWebDriver, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-19_14_52_58_2.xml, windTunnelReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-19_14_52_58_2.xml&amp;ownerId=uzie@perfectomobile.com&amp;sharingCode=97d532ae-43bb-423c-9419-030740871da6, user=, cssSelectorsEnabled=true}]
+Session ID: 8490798c-81ad-4d8e-80c4-92f943417df2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:223)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:508)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:101)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.testStop(PerfectoReportiumClient.java:82)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.reportTestEnd(ReportiumTestNgListener.java:238)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.afterInvocation(ReportiumTestNgListener.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Attempt to use a closed device
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.getDevice(PerfectoMobileDriver.java:773)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:85)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:65)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:47)
+	at com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:26)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2075938739", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2075938739'><pre>org.openqa.selenium.WebDriverException: Attempt to use a closed device
+Command duration or timeout: 33 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;UziMac.fios-router.home&apos;, ip: &apos;192.168.1.155&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{rotatable=true, testGridReportUrl=https://DUMMY_SSO_TENANT_ID.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-19_14_52_58_2, entityType=remote_web_driver, serverConnector=, deviceName=A5E58152551801914DF137179CCE414D7459E610, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-19_14_52_58_2, password=, webdriver.remote.sessionid=8490798c-81ad-4d8e-80c4-92f943417df2, automationName=Appium, host=adam-test.perfectomobile.com, singleTestReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-19_14_52_58_2.xml&amp;ownerId=uzie@perfectomobile.com&amp;sharingCode=97d532ae-43bb-423c-9419-030740871da6, locationContextEnabled=true, scriptName=RemoteWebDriver, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-19_14_52_58_2.xml, windTunnelReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-19_14_52_58_2.xml&amp;ownerId=uzie@perfectomobile.com&amp;sharingCode=97d532ae-43bb-423c-9419-030740871da6, user=, cssSelectorsEnabled=true}]
+Session ID: 8490798c-81ad-4d8e-80c4-92f943417df2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:223)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:508)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:101)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.testStop(PerfectoReportiumClient.java:82)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.reportTestEnd(ReportiumTestNgListener.java:238)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.afterInvocation(ReportiumTestNgListener.java:114)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:556)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:699)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Attempt to use a closed device
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.getDevice(PerfectoMobileDriver.java:773)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:85)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:65)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:47)
+	at com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:26)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+</pre></div></td>
+<td>106</td>
+<td>com.perfectomobile.quantum.java.tests.audio.PMTL@50de0926</td></tr>
+</table><p>
+</body>
+</html>

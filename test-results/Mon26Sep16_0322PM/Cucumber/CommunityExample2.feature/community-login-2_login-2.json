@@ -1,0 +1,299 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "MyCommunityTestSteps.IFill(String,String)",
+      "args": [
+        "<userName>",
+        "<pass>"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"user_email\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 702
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //*[@id=\"user_email\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 634
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"user_email\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 603
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"user_email\"]",
+            "{\"id\":\"1\",\"value\":[\"<userName>\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 379
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"user_password\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 404
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"user_password\"]",
+            "{\"id\":\"2\",\"value\":[\"<pass>\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 417
+        }
+      ],
+      "duration": 5753
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "button.submit"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"user_email\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 702
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //*[@id=\"user_email\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 634
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"user_email\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 603
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"user_email\"]",
+            "{\"id\":\"1\",\"value\":[\"<userName>\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 379
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"user_password\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 404
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"user_password\"]",
+            "{\"id\":\"2\",\"value\":[\"<pass>\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class=\"submit button button_sign-in sign-in button_full\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 471
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@class=\"submit button button_sign-in sign-in button_full\"]",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 332
+        }
+      ],
+      "duration": 805
+    },
+    {
+      "commandName": "PerfectoDeviceSteps.takeScreenshot()",
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"user_email\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 702
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //*[@id=\"user_email\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 634
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"user_email\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 603
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"user_email\"]",
+            "{\"id\":\"1\",\"value\":[\"<userName>\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 379
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"user_password\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 404
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"user_password\"]",
+            "{\"id\":\"2\",\"value\":[\"<pass>\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class=\"submit button button_sign-in sign-in button_full\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 471
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@class=\"submit button button_sign-in sign-in button_full\"]",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 332
+        }
+      ],
+      "duration": 1800
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I fill user \"<userName>\" and password \"<pass>\"",
+      "type": "TestStepPass",
+      "duration": 5753,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_15mnzhkqd0soh12065.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When  I click on \"button.submit\"",
+      "type": "TestStepPass",
+      "duration": 805,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_15mnzhkqd0soh12065.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then  I take a screenshot",
+      "type": "TestStepPass",
+      "duration": 1800,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_15mnzhkqd0soh12065.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+      "type": "Pass",
+      "screenshot": "img/feature_15mnzhkqd0soh12065.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

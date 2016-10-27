@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">AmtrakLogin</th></tr><tr><td><a href="#t0">BDD Android</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,239</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">BDD Galaxy6</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,372</td><td></td><td></td></tr><tr><td><a href="#t2">BDD ios</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">72,622</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t3">Generic_Android</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">79,571</td><td></td><td></td></tr><tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num attn">2</th><th class="num">168,804</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AmtrakLogin</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BDD Android &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.perfectomobile.quantum.runners.MyCucumberTestsRunner</td><td><a href="#m0">feature</a></td><td rowspan="1">1477502772446</td><td rowspan="1">7650</td></tr><tr><th colspan="4">BDD Android &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.perfectomobile.quantum.runners.MyCucumberTestsRunner</td><td><a href="#m1">tearDownClass</a></td><td rowspan="1">1477502780113</td><td rowspan="1">0</td></tr></tbody><tbody id="t1"><tr><th colspan="4">BDD Galaxy6 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.perfectomobile.quantum.runners.MyCucumberTestsRunner</td><td><a href="#m2">feature</a></td><td rowspan="1">1477502772445</td><td rowspan="1">7740</td></tr><tr><th colspan="4">BDD Galaxy6 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.perfectomobile.quantum.runners.MyCucumberTestsRunner</td><td><a href="#m3">tearDownClass</a></td><td rowspan="1">1477502780205</td><td rowspan="1">0</td></tr></tbody><tbody id="t2"><tr><th colspan="4">BDD ios &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.perfectomobile.quantum.runners.MyCucumberTestsRunner</td><td><a href="#m4">feature</a></td><td rowspan="1">1477502772446</td><td rowspan="1">63225</td></tr></tbody><tbody id="t3"><tr><th colspan="4">Generic_Android &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.perfectomobile.quantum.runners.MyCucumberTestsRunner</td><td><a href="#m5">feature</a></td><td rowspan="1">1477502772448</td><td rowspan="1">57716</td></tr></tbody></table><h2>BDD Android</h2><h3 id="m0">com.perfectomobile.quantum.runners.MyCucumberTestsRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{DATAFILE=N/A}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">&lt;div style=&quot;display:block;margin-left:10px;&quot;&gt;&lt;div  class=&quot;fail&quot;&gt;&lt;span class=&quot;fail-label&quot;&gt;F &lt;/span&gt;java.lang.NullPointerException&lt;/div&gt;&lt;/div&gt;</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:101)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.testStart(PerfectoReportiumClient.java:59)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.reportTestStart(ReportiumTestNgListener.java:123)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.beforeInvocation(ReportiumTestNgListener.java:106)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.perfectomobile.quantum.runners.MyCucumberTestsRunner#tearDownClass</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">&lt;div style=&quot;display:block;margin-left:10px;&quot;&gt;&lt;div  class=&quot;fail&quot;&gt;&lt;span class=&quot;fail-label&quot;&gt;F &lt;/span&gt;Unable to Create Driver Instance Failed to execute command handset open: Cannot open device F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70 for user uzie@perfectomobile.com, device is in use.
+Command duration or timeout: 477 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;UziMac&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver&lt;/div&gt;&lt;/div&gt;</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.qmetry.qaf.automation.core.AutomationError: Unable to Create Driver Instance Failed to execute command handset open: Cannot open device F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70 for user uzie@perfectomobile.com, device is in use.
+Command duration or timeout: 477 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;UziMac&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:399)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$3(UiDriverFactory.java:380)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:219)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:95)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:364)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:162)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.AbstractTestCase.getDriver(AbstractTestCase.java:72)
+	at com.perfectomobile.quantum.runners.CucumberTestsRunner.tearDownClass(CucumberTestsRunner.java:137)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Failed to execute command handset open: Cannot open device F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70 for user uzie@perfectomobile.com, device is in use.
+	at com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:98)
+	at com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:510)
+	at com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:57)
+	at com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:50)
+	at com.perfectomobile.selenium.MobileDevice.open(MobileDevice.java:86)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.openDevice(PerfectoMobileDriver.java:359)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.&lt;init&gt;(PerfectoMobileDriver.java:90)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	... 3 more
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>BDD Galaxy6</h2><h3 id="m2">com.perfectomobile.quantum.runners.MyCucumberTestsRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{DATAFILE=N/A}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">&lt;div style=&quot;display:block;margin-left:10px;&quot;&gt;&lt;div  class=&quot;fail&quot;&gt;&lt;span class=&quot;fail-label&quot;&gt;F &lt;/span&gt;java.lang.NullPointerException&lt;/div&gt;&lt;/div&gt;</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:101)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.testStart(PerfectoReportiumClient.java:59)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.reportTestStart(ReportiumTestNgListener.java:123)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.beforeInvocation(ReportiumTestNgListener.java:106)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.perfectomobile.quantum.runners.MyCucumberTestsRunner#tearDownClass</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">&lt;div style=&quot;display:block;margin-left:10px;&quot;&gt;&lt;div  class=&quot;fail&quot;&gt;&lt;span class=&quot;fail-label&quot;&gt;F &lt;/span&gt;Unable to Create Driver Instance Failed to execute command handset open: Allocation failed. Invalid device status (ERROR) or disconnecting status (DISCONNECTING) for device: 1215FC70BAE54004 on cradle: WF-CG21-4-8/VIRTUAL/01
+Command duration or timeout: 529 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;UziMac&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver&lt;/div&gt;&lt;/div&gt;</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.qmetry.qaf.automation.core.AutomationError: Unable to Create Driver Instance Failed to execute command handset open: Allocation failed. Invalid device status (ERROR) or disconnecting status (DISCONNECTING) for device: 1215FC70BAE54004 on cradle: WF-CG21-4-8/VIRTUAL/01
+Command duration or timeout: 529 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;UziMac&apos;, ip: &apos;192.168.43.133&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:399)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$3(UiDriverFactory.java:380)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:219)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:95)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:364)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:162)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.AbstractTestCase.getDriver(AbstractTestCase.java:72)
+	at com.perfectomobile.quantum.runners.CucumberTestsRunner.tearDownClass(CucumberTestsRunner.java:137)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Failed to execute command handset open: Allocation failed. Invalid device status (ERROR) or disconnecting status (DISCONNECTING) for device: 1215FC70BAE54004 on cradle: WF-CG21-4-8/VIRTUAL/01
+	at com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:98)
+	at com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:510)
+	at com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:57)
+	at com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:50)
+	at com.perfectomobile.selenium.MobileDevice.open(MobileDevice.java:86)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.openDevice(PerfectoMobileDriver.java:359)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.&lt;init&gt;(PerfectoMobileDriver.java:90)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	... 3 more
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>BDD ios</h2><h3 id="m4">com.perfectomobile.quantum.runners.MyCucumberTestsRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{DATAFILE=N/A}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">&lt;div style=&quot;display:block;margin-left:10px;&quot;&gt;&lt;/div&gt;</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Generic_Android</h2><h3 id="m5">com.perfectomobile.quantum.runners.MyCucumberTestsRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{DATAFILE=N/A}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">&lt;div style=&quot;display:block;margin-left:10px;&quot;&gt;&lt;/div&gt;</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

@@ -1,0 +1,290 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoApplicationSteps.navigateToURL(String)",
+      "args": [
+        "https://community.perfectomobile.com/"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://community.perfectomobile.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1029
+        }
+      ],
+      "duration": 1182
+    },
+    {
+      "commandName": "MyCommunityTestSteps.goToLogin()",
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://community.perfectomobile.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1029
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class=\"icon ic-menu\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3797
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@class=\"icon ic-menu\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 963
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Log in\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 447
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Log in\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 481
+        }
+      ],
+      "duration": 5705
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.verifyLocator(String)",
+      "args": [
+        "bad"
+      ],
+      "result": "failed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://community.perfectomobile.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1029
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class=\"icon ic-menu\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3797
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@class=\"icon ic-menu\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 963
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Log in\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 447
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Log in\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 481
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='bad' or @id='bad' or @value='bad'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31671
+        }
+      ],
+      "duration": 34163
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.assertLocator(String)",
+      "args": [
+        "login.user"
+      ],
+      "result": "failed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://community.perfectomobile.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1029
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class=\"icon ic-menu\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3797
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@class=\"icon ic-menu\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 963
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Log in\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 447
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Log in\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 481
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='bad' or @id='bad' or @value='bad'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 31671
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@id=\"user_email\"], using=xpath}"
+          ],
+          "result": "[id: 2]",
+          "subLogs": [],
+          "duration": 523
+        }
+      ],
+      "duration": 2814
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I open browser to webpage \"https://community.perfectomobile.com/\"",
+      "type": "TestStepPass",
+      "duration": 1182,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When  I go to login page",
+      "type": "TestStepPass",
+      "duration": 5705,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  \"bad\" should exist",
+      "type": "TestStepFail",
+      "duration": 34163,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@name='bad' or @id='bad' or @value='bad'] present : Actual By.xpath: //*[@name='bad' or @id='bad' or @value='bad'] not present",
+          "type": "Fail",
+          "screenshot": "img/feature_6np5oo8syx091907.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then  \"login.user\" must exist",
+      "type": "TestStepFail",
+      "duration": 2814,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@name='bad' or @id='bad' or @value='bad'] present : Actual By.xpath: //*[@name='bad' or @id='bad' or @value='bad'] not present",
+          "type": "Fail",
+          "screenshot": "img/feature_6np5oo8syx091907.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] present : Actual By.xpath: //*[@id=\"user_email\"] present",
+          "type": "Pass",
+          "screenshot": "img/feature_11q777i6hh6ra1908.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Expected By.xpath: //*[@name='bad' or @id='bad' or @value='bad'] present : Actual By.xpath: //*[@name='bad' or @id='bad' or @value='bad'] not present",
+      "type": "Fail",
+      "screenshot": "img/feature_6np5oo8syx091907.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected By.xpath: //*[@id=\"user_email\"] present : Actual By.xpath: //*[@id=\"user_email\"] present",
+      "type": "Pass",
+      "screenshot": "img/feature_11q777i6hh6ra1908.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

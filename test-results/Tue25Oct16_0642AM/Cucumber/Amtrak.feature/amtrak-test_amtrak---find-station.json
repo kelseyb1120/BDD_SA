@@ -1,0 +1,512 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoApplicationSteps.navigateToURL(String)",
+      "args": [
+        "http://amtrak.com"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9930
+        }
+      ],
+      "duration": 10028
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "train.status"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9930
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Train Status\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3851
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Train Status\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 583
+        }
+      ],
+      "duration": 4435
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "find.Station"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9930
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Train Status\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3851
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Train Status\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 583
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "Element with by xpath '(//*[@value='Find a Station' and @type='submit'])[2]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 353 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, password=, webdriver.remote.sessionid=015d83f8-94c7-4195-afaf-40b996346a02, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, user=, cssSelectorsEnabled=true}]\nSession ID: 015d83f8-94c7-4195-afaf-40b996346a02\n*** Element info: {Using=xpath, value=(//*[@value='Find a Station' and @type='submit'])[2]}",
+          "subLogs": [],
+          "duration": 353
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1012
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[@value='Find a Station' and @type='submit'])[2]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 590
+        }
+      ],
+      "duration": 2960
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "Station.abl"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9930
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Train Status\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3851
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Train Status\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 583
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "Element with by xpath '(//*[@value='Find a Station' and @type='submit'])[2]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 353 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, password=, webdriver.remote.sessionid=015d83f8-94c7-4195-afaf-40b996346a02, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, user=, cssSelectorsEnabled=true}]\nSession ID: 015d83f8-94c7-4195-afaf-40b996346a02\n*** Element info: {Using=xpath, value=(//*[@value='Find a Station' and @type='submit'])[2]}",
+          "subLogs": [],
+          "duration": 353
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1012
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[@value='Find a Station' and @type='submit'])[2]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 590
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='Albany-Rensselaer, NY (ALB)'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[text()='Albany-Rensselaer, NY (ALB)']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 544 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, password=, webdriver.remote.sessionid=015d83f8-94c7-4195-afaf-40b996346a02, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, user=, cssSelectorsEnabled=true}]\nSession ID: 015d83f8-94c7-4195-afaf-40b996346a02\n*** Element info: {Using=xpath, value=//*[text()='Albany-Rensselaer, NY (ALB)']}",
+          "subLogs": [],
+          "duration": 544
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='Albany-Rensselaer, NY (ALB)'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1033
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()='Albany-Rensselaer, NY (ALB)']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 378
+        }
+      ],
+      "duration": 2957
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iSet(String,String)",
+      "args": [
+        "45",
+        "bus.number"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9930
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Train Status\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3851
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Train Status\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 583
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "Element with by xpath '(//*[@value='Find a Station' and @type='submit'])[2]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 353 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, password=, webdriver.remote.sessionid=015d83f8-94c7-4195-afaf-40b996346a02, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, user=, cssSelectorsEnabled=true}]\nSession ID: 015d83f8-94c7-4195-afaf-40b996346a02\n*** Element info: {Using=xpath, value=(//*[@value='Find a Station' and @type='submit'])[2]}",
+          "subLogs": [],
+          "duration": 353
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1012
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[@value='Find a Station' and @type='submit'])[2]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 590
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='Albany-Rensselaer, NY (ALB)'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[text()='Albany-Rensselaer, NY (ALB)']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 544 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, password=, webdriver.remote.sessionid=015d83f8-94c7-4195-afaf-40b996346a02, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, user=, cssSelectorsEnabled=true}]\nSession ID: 015d83f8-94c7-4195-afaf-40b996346a02\n*** Element info: {Using=xpath, value=//*[text()='Albany-Rensselaer, NY (ALB)']}",
+          "subLogs": [],
+          "duration": 544
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='Albany-Rensselaer, NY (ALB)'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1033
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()='Albany-Rensselaer, NY (ALB)']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 378
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"status_train_num\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 571
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"status_train_num\"]",
+            "{\"id\":\"3\",\"value\":[\"45\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1131
+        }
+      ],
+      "duration": 1703
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "status.button"
+      ],
+      "result": "failed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9930
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Train Status\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3851
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Train Status\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 583
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "Element with by xpath '(//*[@value='Find a Station' and @type='submit'])[2]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 353 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, password=, webdriver.remote.sessionid=015d83f8-94c7-4195-afaf-40b996346a02, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, user=, cssSelectorsEnabled=true}]\nSession ID: 015d83f8-94c7-4195-afaf-40b996346a02\n*** Element info: {Using=xpath, value=(//*[@value='Find a Station' and @type='submit'])[2]}",
+          "subLogs": [],
+          "duration": 353
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//*[@value='Find a Station' and @type='submit'])[2], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1012
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//*[@value='Find a Station' and @type='submit'])[2]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 590
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='Albany-Rensselaer, NY (ALB)'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[text()='Albany-Rensselaer, NY (ALB)']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 544 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, password=, webdriver.remote.sessionid=015d83f8-94c7-4195-afaf-40b996346a02, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, user=, cssSelectorsEnabled=true}]\nSession ID: 015d83f8-94c7-4195-afaf-40b996346a02\n*** Element info: {Using=xpath, value=//*[text()='Albany-Rensselaer, NY (ALB)']}",
+          "subLogs": [],
+          "duration": 544
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='Albany-Rensselaer, NY (ALB)'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1033
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()='Albany-Rensselaer, NY (ALB)']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 378
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"status_train_num\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 571
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"status_train_num\"]",
+            "{\"id\":\"3\",\"value\":[\"45\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1131
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"un_actionSubmit\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 266
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"un_actionSubmit\"]",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "Failed to execute command webpage.element click: clickElement command failed. Reason: handset server: server is busy processing another request [/deviceStateClose]\nCommand duration or timeout: 655 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, password=, webdriver.remote.sessionid=015d83f8-94c7-4195-afaf-40b996346a02, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, user=, cssSelectorsEnabled=true}]\nSession ID: 015d83f8-94c7-4195-afaf-40b996346a02",
+          "subLogs": [],
+          "duration": 656
+        }
+      ],
+      "duration": 922
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I open browser to webpage \"http://amtrak.com\"",
+      "type": "TestStepPass",
+      "duration": 10028,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"train.status\"",
+      "type": "TestStepPass",
+      "duration": 4435,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"find.Station\"",
+      "type": "TestStepPass",
+      "duration": 2960,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"Station.abl\"",
+      "type": "TestStepPass",
+      "duration": 2957,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I enter \"45\" to \"bus.number\"",
+      "type": "TestStepPass",
+      "duration": 1703,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"status.button\"",
+      "type": "TestStepFail",
+      "duration": 922,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command webpage.element click: clickElement command failed. Reason: handset server: server is busy processing another request [/deviceStateClose]\nCommand duration or timeout: 655 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5420, password=, webdriver.remote.sessionid=015d83f8-94c7-4195-afaf-40b996346a02, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5420.xml&ownerId=uzie@perfectomobile.com&sharingCode=8c5d14e4-7006-481f-8178-bad0723d377a, user=, cssSelectorsEnabled=true}]\nSession ID: 015d83f8-94c7-4195-afaf-40b996346a02\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:245)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:221)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:593)\n\tat com.perfectomobile.quantum.steps.PerfectoApplicationSteps.iClick(PerfectoApplicationSteps.java:219)\n\tat ✽.Then I click on \"status.button\"(Amtrak.feature:10)\nCaused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac', ip: '192.168.43.133', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: driver.version: QAFExtendedWebDriver\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:245)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:221)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:593)\n\tat com.perfectomobile.quantum.steps.PerfectoApplicationSteps.iClick(PerfectoApplicationSteps.java:219)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\n\tat com.perfectomobile.quantum.runners.CucumberTestsRunner.feature(CucumberTestsRunner.java:124)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.lang.RuntimeException: Failed to execute command webpage.element click: clickElement command failed. Reason: handset server: server is busy processing another request [/deviceStateClose]\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:98)\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:510)\n\tat com.perfectomobile.selenium.MobileApplication.processResponse(MobileApplication.java:54)\n\tat com.perfectomobile.selenium.dom.MobileDOMApplication.processResponse(MobileDOMApplication.java:463)\n\tat com.perfectomobile.selenium.MobileElement.processResponse(MobileElement.java:82)\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:57)\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:50)\n\tat com.perfectomobile.selenium.MobileElement.click(MobileElement.java:144)\n\tat sun.reflect.GeneratedMethodAccessor2187.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:334)\n\tat com.sun.proxy.$Proxy283.click(Unknown Source)\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:347)\n\tat sun.reflect.GeneratedMethodAccessor2187.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)\n\tat com.sun.proxy.$Proxy284.click(Unknown Source)\n\tat org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)\n\tat org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)\n\t... 3 more\n"
+}

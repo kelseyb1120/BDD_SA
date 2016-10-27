@@ -1,0 +1,76 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-2_open-community-2",
+        "name": "community login 2-open community 2",
+        "groups": [
+          "@tag2"
+        ],
+        "description": "DATAFILE=src/test/resources/data/testData.csv\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475252107174,
+      "duration": 10077,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-2_login-2",
+        "name": "community login 2-login 2",
+        "groups": [
+          "@tag2"
+        ],
+        "description": "DATAFILE=src/test/resources/data/testData.csv\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475252117337,
+      "duration": 8096,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-2_open-community-2",
+        "name": "community login 2-open community 2",
+        "groups": [
+          "@tag2"
+        ],
+        "description": "DATAFILE=src/test/resources/data/testData.csv\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475252125615,
+      "duration": 9073,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-2_login-2",
+        "name": "community login 2-login 2",
+        "groups": [
+          "@tag2"
+        ],
+        "description": "DATAFILE=src/test/resources/data/testData.csv\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475252134776,
+      "duration": 5925,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

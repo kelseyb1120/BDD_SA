@@ -1,0 +1,99 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Home, Tab, 1 of 5\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Home, Tab, 1 of 5\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'US1-CLEAN-MCM', ip: '100.85.1.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 15.16 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://DUMMY_SSO_TENANT_ID.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-14_19_11_14_146, entityType=remote_web_driver, serverConnector=, deviceName=A5E58152551801914DF137179CCE414D7459E610, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-14_19_11_14_146, password=, webdriver.remote.sessionid=b59370c9-090e-43e8-8bbf-28319851aeae, automationName=Appium, host=adam-test.perfectomobile.com, singleTestReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-14_19_11_14_146.xml&ownerId=uzie@perfectomobile.com&sharingCode=654b2cdf-012a-44c2-8a91-901a33677899, locationContextEnabled=true, scriptName=RemoteWebDriver, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-14_19_11_14_146.xml, windTunnelReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-14_19_11_14_146.xml&ownerId=uzie@perfectomobile.com&sharingCode=654b2cdf-012a-44c2-8a91-901a33677899, user=, cssSelectorsEnabled=true}]\nSession ID: b59370c9-090e-43e8-8bbf-28319851aeae\n*** Element info: {Using=xpath, value=//*[@label=\"Home, Tab, 1 of 5\"]}",
+      "subLogs": [],
+      "duration": 15159
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Home, Tab, 1 of 5\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 3214
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Home, Tab, 1 of 5\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 667
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Sign In\"], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 2790
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Sign In\"]",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1030
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name=\"text_password\"], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 2558
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@name=\"text_password\"]",
+        "{\"id\":\"2\",\"value\":[\"Perfecto2@\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 1148
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name=\"button_signin\"], using=xpath}"
+      ],
+      "result": "id: 3",
+      "subLogs": [],
+      "duration": 2227
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@name=\"button_signin\"]",
+        "{\"id\":\"3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1066
+    }
+  ],
+  "checkPoints": []
+}

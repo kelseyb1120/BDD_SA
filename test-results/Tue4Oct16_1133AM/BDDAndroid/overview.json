@@ -1,0 +1,67 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.perfectomobile.quantum.runners.MyCucumberTestsRunner"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Perfecto1",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "user": "uzie@perfectomobile.com",
+      "deviceName": "F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "rotatable": "true",
+      "testGridReportUrl": "https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-04_15_33_55_2556",
+      "entityType": "remote_web_driver",
+      "deviceName": "F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70",
+      "serverConnector": "",
+      "platform": "ANY",
+      "executionId": "uzie@perfectomobile.com_RemoteWebDriver_16-10-04_15_33_55_2556",
+      "password": "",
+      "webdriver.remote.sessionid": "0eaf8add-ec12-436b-91d3-6fe75a0c9008",
+      "automationName": "Appium",
+      "host": "beta.perfectomobile.com",
+      "singleTestReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161004/RemoteWebDriver_16-10-04_15_33_55_2556.xml&ownerId=uzie@perfectomobile.com&sharingCode=e7d82db9-0360-410e-a49c-7ecf01f7b5a0",
+      "locationContextEnabled": "true",
+      "takesScreenshot": "true",
+      "browserName": "MobileOS",
+      "scriptName": "RemoteWebDriver",
+      "javascriptEnabled": "true",
+      "reportKey": "PRIVATE:RemoteWebDriver/161004/RemoteWebDriver_16-10-04_15_33_55_2556.xml",
+      "windTunnelReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161004/RemoteWebDriver_16-10-04_15_33_55_2556.xml&ownerId=uzie@perfectomobile.com&sharingCode=e7d82db9-0360-410e-a49c-7ecf01f7b5a0",
+      "user": "",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "8",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Sep-2016 17:50:25"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "driver.capabilities.deviceName": "F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70",
+      "tags": "@amtrak"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_45",
+      "os.arch": "x86_64",
+      "host": "UziMac.local",
+      "os.name": "Mac OS X",
+      "user.name": "uzie",
+      "os.version": "10.11.1"
+    }
+  },
+  "startTime": 1475595233950,
+  "endTime": 1475595278458
+}

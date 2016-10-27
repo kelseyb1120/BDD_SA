@@ -1,0 +1,23 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "amtrak-test_amtrak---buy-ticket",
+        "name": "Amtrak test-amtrak - buy ticket",
+        "groups": [
+          "@amtrak1",
+          "@amtrak"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475261403761,
+      "duration": 23843,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

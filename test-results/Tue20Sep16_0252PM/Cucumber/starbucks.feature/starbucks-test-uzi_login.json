@@ -1,0 +1,40 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "StepDef.I_login(String,String)",
+      "args": [
+        "Uzie@perfectomobile.com",
+        "PPP"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 16141
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Then  I login with user \"Uzie@perfectomobile.com\" and password \"PPP\"",
+      "type": "TestStepPass",
+      "duration": 16141,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_6k01itra6j0s60385.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] enabled",
+      "type": "Pass",
+      "screenshot": "img/feature_6k01itra6j0s60385.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

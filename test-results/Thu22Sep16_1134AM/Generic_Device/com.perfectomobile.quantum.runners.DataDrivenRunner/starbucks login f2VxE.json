@@ -1,0 +1,127 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.starbucks.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 7486
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=signIn, using=id}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 16483
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: signIn",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 544
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@placeholder='Username or email'], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@placeholder='Username or email']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.97 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.91', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-22_08_34_13_2607, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-22_08_34_13_2607, password=, webdriver.remote.sessionid=c48a595c-47b7-4022-bc79-c9a6995d9b37, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-22_08_34_13_2607.xml&ownerId=uzie@perfectomobile.com&sharingCode=edb97dd6-60ea-495d-bda2-9c2c9e86e33b, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-22_08_34_13_2607.xml, platformName=Android, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-22_08_34_13_2607.xml&ownerId=uzie@perfectomobile.com&sharingCode=edb97dd6-60ea-495d-bda2-9c2c9e86e33b, user=, cssSelectorsEnabled=true}]\nSession ID: c48a595c-47b7-4022-bc79-c9a6995d9b37\n*** Element info: {Using=xpath, value=//*[@placeholder='Username or email']}",
+      "subLogs": [],
+      "duration": 1977
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@placeholder='Username or email'], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 4888
+    },
+    {
+      "commandName": "isElementEnabled",
+      "args": [
+        "By.xpath: //*[@placeholder='Username or email']",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "isElementEnabled:true",
+      "subLogs": [],
+      "duration": 1491
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@placeholder='Username or email'], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 1189
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@placeholder='Username or email']",
+        "{\"id\":\"2\",\"value\":[\"f2f2f2f2f2f\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 604
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@type='password'], using=xpath}"
+      ],
+      "result": "id: 3",
+      "subLogs": [],
+      "duration": 1427
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@type='password']",
+        "{\"id\":\"3\",\"value\":[\"Perfecto1\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 531
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=AT_SignIn_Button, using=id}"
+      ],
+      "result": "id: 4",
+      "subLogs": [],
+      "duration": 1301
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: AT_SignIn_Button",
+        "{\"id\":\"4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 484
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] enabled",
+      "type": "Pass",
+      "screenshot": "img/starbucks login f2_hjzeonhj2xqf39430.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

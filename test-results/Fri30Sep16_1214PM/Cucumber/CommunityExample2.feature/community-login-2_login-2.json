@@ -1,0 +1,87 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "MyCommunityTestSteps.IFill(String,String)",
+      "args": [
+        "csvuser2",
+        "csvpass2"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 4940
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "button.submit"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 823
+    },
+    {
+      "commandName": "PerfectoDeviceSteps.takeScreenshot()",
+      "result": "passed",
+      "subLogs": [],
+      "duration": 158
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I fill user \"csvuser2\" and password \"csvpass2\"",
+      "type": "TestStepPass",
+      "duration": 4940,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+          "type": "Pass",
+          "screenshot": "img/community login 2_qn8an4cl8swj57107.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When  I click on \"button.submit\"",
+      "type": "TestStepPass",
+      "duration": 823,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+          "type": "Pass",
+          "screenshot": "img/community login 2_qn8an4cl8swj57107.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then  I take a screenshot",
+      "type": "TestStepPass",
+      "duration": 158,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+          "type": "Pass",
+          "screenshot": "img/community login 2_qn8an4cl8swj57107.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Expected By.xpath: //*[@id=\"user_email\"] enabled : Actual By.xpath: //*[@id=\"user_email\"] enabled",
+      "type": "Pass",
+      "screenshot": "img/community login 2_qn8an4cl8swj57107.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

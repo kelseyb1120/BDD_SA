@@ -1,0 +1,68 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.perfectomobile.quantum.runners.MyCucumberTestsRunner"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Perfecto1",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "platformName": "Android",
+      "user": "uzie@perfectomobile.com",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "rotatable": "true",
+      "testGridReportUrl": "https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-07_12_47_13_3121",
+      "entityType": "remote_web_driver",
+      "serverConnector": "",
+      "deviceName": "00FAB026E230B238",
+      "platform": "ANY",
+      "executionId": "uzie@perfectomobile.com_RemoteWebDriver_16-10-07_12_47_13_3121",
+      "password": "",
+      "webdriver.remote.sessionid": "6d382bcd-6f99-4937-92f2-3c5ec3d05041",
+      "automationName": "Appium",
+      "host": "beta.perfectomobile.com",
+      "singleTestReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161007/RemoteWebDriver_16-10-07_12_47_13_3121.xml&ownerId=uzie@perfectomobile.com&sharingCode=f7cd52f6-7368-4c0e-bac5-41b4050125d3",
+      "locationContextEnabled": "true",
+      "takesScreenshot": "true",
+      "browserName": "MobileOS",
+      "scriptName": "RemoteWebDriver",
+      "javascriptEnabled": "true",
+      "reportKey": "PRIVATE:RemoteWebDriver/161007/RemoteWebDriver_16-10-07_12_47_13_3121.xml",
+      "platformName": "Android",
+      "windTunnelReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161007/RemoteWebDriver_16-10-07_12_47_13_3121.xml&ownerId=uzie@perfectomobile.com&sharingCode=f7cd52f6-7368-4c0e-bac5-41b4050125d3",
+      "user": "",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "8",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Sep-2016 17:50:25"
+    },
+    "run-parameters": {
+      "driver.capabilities.platformName": "Android",
+      "resources": "resources",
+      "tags": "@amtrak"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_45",
+      "os.arch": "x86_64",
+      "host": "UziMac.fios-router.home",
+      "os.name": "Mac OS X",
+      "user.name": "uzie",
+      "os.version": "10.11.1"
+    }
+  },
+  "startTime": 1475844431977,
+  "endTime": 1475844601312
+}

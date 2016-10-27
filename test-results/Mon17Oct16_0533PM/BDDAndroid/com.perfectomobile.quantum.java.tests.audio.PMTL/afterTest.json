@@ -1,0 +1,14 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "quit",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 31
+    }
+  ],
+  "checkPoints": []
+}

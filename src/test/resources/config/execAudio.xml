@@ -1,0 +1,13 @@
+<suite name="PerfectoBDD" verbose="0" parallel="tests">
+    <test name="BDD Android" enabled="true">
+        <groups>
+            <run>
+                <include name="run"/>
+            </run>
+        </groups>
+        <parameter name="driver.capabilities.deviceName" value="03157DF3A517B128"></parameter>
+        <classes>
+            <class name="com.perfectomobile.quantum.java.tests.audio.AudioTest"></class> 
+        </classes>
+    </test>
+</suite>

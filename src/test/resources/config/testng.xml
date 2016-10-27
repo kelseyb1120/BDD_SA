@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="PerfectoBDD" verbose="0" parallel="tests"  data-provider-thread-count="100" thread-count="100">
+
+	<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+	<parameter name="features" value="src/test/java/com/perfectomobile/quantum/features"/>
+	<parameter name="glue" value="com.perfectomobile.quantum.steps"/>
+	<parameter name="plugin" value="com.qmetry.qaf.automation.cucumber.QAFCucumberFormatter"/>
+	<parameter name="tags" value="@tag1,@tag2"/>
+	<parameter name="driver.retry.times" value="3"/>
+	<parameter name="driver.retry.wait.sec" value="60"/>
+	<parameter name="dryRun" value="false"/>
+
+	<test name="BDD_Device_List" enabled="false">
+		<parameter name="driver.capabilities.deviceName" value="04157DF4E959AA15"></parameter>
+		<parameter name="tags" value="@tag1"/>
+		<classes>
+			<class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner"></class>
+		</classes>
+	</test>
+	
+
+</suite>
+

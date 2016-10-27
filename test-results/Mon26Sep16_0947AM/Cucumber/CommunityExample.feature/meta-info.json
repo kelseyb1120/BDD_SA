@@ -1,0 +1,40 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login_open-community",
+        "name": "community login-open community",
+        "groups": [
+          "@tag"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474897658803,
+      "duration": 43873,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login_login",
+        "name": "community login-login",
+        "groups": [
+          "@tag"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474897702726,
+      "duration": 8200,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

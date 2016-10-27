@@ -1,0 +1,23 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-login-f2_login-f2",
+        "name": "starbucks login f2-login_f2",
+        "groups": [
+          "@tag",
+          "@t2"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474534912419,
+      "duration": 32598,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

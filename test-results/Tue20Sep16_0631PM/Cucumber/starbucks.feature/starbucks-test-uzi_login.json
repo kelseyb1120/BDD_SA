@@ -1,0 +1,41 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "StepDef.I_login(String,String)",
+      "args": [
+        "Uzie@perfectomobile.com",
+        "PPP"
+      ],
+      "result": "failed",
+      "subLogs": [],
+      "duration": 32904
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Then  I login with user \"Uzie@perfectomobile.com\" and password \"PPP\"",
+      "type": "TestStepFail",
+      "duration": 32904,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] not enabled",
+          "type": "Fail",
+          "screenshot": "img/feature_1mlbo89fj7mkc38557.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] not enabled",
+      "type": "Fail",
+      "screenshot": "img/feature_1mlbo89fj7mkc38557.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertEnabled(QAFExtendedWebElement.java:977)\n\tat com.qmetry.qaf.automation.step.CommonStep.assertEnabled(CommonStep.java:1699)\n\tat com.perfectomobile.quantum.steps.StepDef.I_login(StepDef.java:25)\n\tat ✽.Then I login with user \"Uzie@perfectomobile.com\" and password \"PPP\"(starbucks.feature:11)\n"
+}

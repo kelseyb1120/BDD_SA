@@ -1,0 +1,13 @@
+{
+  "name": "PerfectoBDD",
+  "status": "fail",
+  "tests": [
+    "BDD_Device_List"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "startTime": 1475762572419,
+  "endTime": 1475762605189
+}

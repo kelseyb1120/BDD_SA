@@ -1,0 +1,967 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoApplicationSteps.navigateToURL(String)",
+      "args": [
+        "http://amtrak.com"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        }
+      ],
+      "duration": 1474
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.waitToAppear(long,String)",
+      "args": [
+        "20",
+        "buy.ticket"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 758
+        }
+      ],
+      "duration": 768
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "buy.ticket"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 758
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Buy Tickets\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 469
+        }
+      ],
+      "duration": 841
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iSet(String,String)",
+      "args": [
+        "NYP",
+        "ticket.from"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 758
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Buy Tickets\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 469
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name=\"wdf_origin\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 510 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, entityType=remote_web_driver, deviceName=988667325047395643, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, password=, webdriver.remote.sessionid=ea30c43e-983a-445f-9738-0b2b283fb6dc, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, user=, cssSelectorsEnabled=true}]\nSession ID: ea30c43e-983a-445f-9738-0b2b283fb6dc\n*** Element info: {Using=xpath, value=//*[@name=\"wdf_origin\"]}",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1312
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_origin\"]",
+            "{\"id\":\"2\",\"value\":[\"NYP\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 445
+        }
+      ],
+      "duration": 3277
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iSet(String,String)",
+      "args": [
+        "BBY",
+        "ticket.to"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 758
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Buy Tickets\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 469
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name=\"wdf_origin\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 510 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, entityType=remote_web_driver, deviceName=988667325047395643, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, password=, webdriver.remote.sessionid=ea30c43e-983a-445f-9738-0b2b283fb6dc, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, user=, cssSelectorsEnabled=true}]\nSession ID: ea30c43e-983a-445f-9738-0b2b283fb6dc\n*** Element info: {Using=xpath, value=//*[@name=\"wdf_origin\"]}",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1312
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_origin\"]",
+            "{\"id\":\"2\",\"value\":[\"NYP\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_destination\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 561
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_destination\"]",
+            "{\"id\":\"3\",\"value\":[\"BBY\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 381
+        }
+      ],
+      "duration": 942
+    },
+    {
+      "commandName": "PerfectoDeviceSteps.scrollDown()",
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 758
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Buy Tickets\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 469
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name=\"wdf_origin\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 510 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, entityType=remote_web_driver, deviceName=988667325047395643, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, password=, webdriver.remote.sessionid=ea30c43e-983a-445f-9738-0b2b283fb6dc, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, user=, cssSelectorsEnabled=true}]\nSession ID: ea30c43e-983a-445f-9738-0b2b283fb6dc\n*** Element info: {Using=xpath, value=//*[@name=\"wdf_origin\"]}",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1312
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_origin\"]",
+            "{\"id\":\"2\",\"value\":[\"NYP\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_destination\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 561
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_destination\"]",
+            "{\"id\":\"3\",\"value\":[\"BBY\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 381
+        }
+      ],
+      "duration": 1277
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "find.train"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 758
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Buy Tickets\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 469
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name=\"wdf_origin\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 510 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, entityType=remote_web_driver, deviceName=988667325047395643, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, password=, webdriver.remote.sessionid=ea30c43e-983a-445f-9738-0b2b283fb6dc, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, user=, cssSelectorsEnabled=true}]\nSession ID: ea30c43e-983a-445f-9738-0b2b283fb6dc\n*** Element info: {Using=xpath, value=//*[@name=\"wdf_origin\"]}",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1312
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_origin\"]",
+            "{\"id\":\"2\",\"value\":[\"NYP\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_destination\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 561
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_destination\"]",
+            "{\"id\":\"3\",\"value\":[\"BBY\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 381
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"un_actionSubmit\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 731
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"un_actionSubmit\"]",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 500
+        }
+      ],
+      "duration": 1232
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.waitFor(long)",
+      "args": [
+        "2"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 758
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Buy Tickets\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 469
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name=\"wdf_origin\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 510 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, entityType=remote_web_driver, deviceName=988667325047395643, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, password=, webdriver.remote.sessionid=ea30c43e-983a-445f-9738-0b2b283fb6dc, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, user=, cssSelectorsEnabled=true}]\nSession ID: ea30c43e-983a-445f-9738-0b2b283fb6dc\n*** Element info: {Using=xpath, value=//*[@name=\"wdf_origin\"]}",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1312
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_origin\"]",
+            "{\"id\":\"2\",\"value\":[\"NYP\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_destination\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 561
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_destination\"]",
+            "{\"id\":\"3\",\"value\":[\"BBY\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 381
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"un_actionSubmit\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 731
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"un_actionSubmit\"]",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 500
+        }
+      ],
+      "duration": 2000
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "continue"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 758
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Buy Tickets\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 469
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name=\"wdf_origin\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 510 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, entityType=remote_web_driver, deviceName=988667325047395643, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, password=, webdriver.remote.sessionid=ea30c43e-983a-445f-9738-0b2b283fb6dc, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, user=, cssSelectorsEnabled=true}]\nSession ID: ea30c43e-983a-445f-9738-0b2b283fb6dc\n*** Element info: {Using=xpath, value=//*[@name=\"wdf_origin\"]}",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1312
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_origin\"]",
+            "{\"id\":\"2\",\"value\":[\"NYP\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_destination\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 561
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_destination\"]",
+            "{\"id\":\"3\",\"value\":[\"BBY\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 381
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"un_actionSubmit\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 731
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"un_actionSubmit\"]",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 500
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"un_actionSubmit\"], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 1065
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"un_actionSubmit\"]",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 317
+        }
+      ],
+      "duration": 1384
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.verifyVisualText(String)",
+      "args": [
+        "Departure"
+      ],
+      "result": "failed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://amtrak.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1403
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 758
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()=\"Buy Tickets\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()=\"Buy Tickets\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 469
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@name=\"wdf_origin\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 510 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, entityType=remote_web_driver, deviceName=988667325047395643, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_18_49_54_2176, password=, webdriver.remote.sessionid=ea30c43e-983a-445f-9738-0b2b283fb6dc, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_18_49_54_2176.xml&ownerId=uzie@perfectomobile.com&sharingCode=f9a18d28-8b55-4766-8554-ebfec560a841, user=, cssSelectorsEnabled=true}]\nSession ID: ea30c43e-983a-445f-9738-0b2b283fb6dc\n*** Element info: {Using=xpath, value=//*[@name=\"wdf_origin\"]}",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_origin\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1312
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_origin\"]",
+            "{\"id\":\"2\",\"value\":[\"NYP\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name=\"wdf_destination\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 561
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@name=\"wdf_destination\"]",
+            "{\"id\":\"3\",\"value\":[\"BBY\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 381
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"un_actionSubmit\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 731
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"un_actionSubmit\"]",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 500
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"un_actionSubmit\"], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 1065
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"un_actionSubmit\"]",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 317
+        },
+        {
+          "commandName": "getCurrentContextHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "WEBVIEW_1",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=VISUAL}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=WEBVIEW_1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 23
+        }
+      ],
+      "duration": 10632
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I open browser to webpage \"http://amtrak.com\"",
+      "type": "TestStepPass",
+      "duration": 1474,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I wait \"20\" seconds for \"buy.ticket\" to appear",
+      "type": "TestStepPass",
+      "duration": 768,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"buy.ticket\"",
+      "type": "TestStepPass",
+      "duration": 841,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I enter \"NYP\" to \"ticket.from\"",
+      "type": "TestStepPass",
+      "duration": 3277,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I enter \"BBY\" to \"ticket.to\"",
+      "type": "TestStepPass",
+      "duration": 942,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I scroll down",
+      "type": "TestStepPass",
+      "duration": 1277,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"find.train\"",
+      "type": "TestStepPass",
+      "duration": 1232,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I wait for \"2\" seconds",
+      "type": "TestStepPass",
+      "duration": 2000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"continue\"",
+      "type": "TestStepPass",
+      "duration": 1384,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I should see text \"Departure\"",
+      "type": "TestStepFail",
+      "duration": 10632,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: \"true\"\n     Actual: was \"false\"",
+          "type": "Fail",
+          "screenshot": "img/Amtrak test_1kfawgiz98igx6724.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "\nExpected: \"true\"\n     Actual: was \"false\"",
+      "type": "Fail",
+      "screenshot": "img/Amtrak test_1kfawgiz98igx6724.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

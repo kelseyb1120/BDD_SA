@@ -1,0 +1,52 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"BLEIcon4\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 6759
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"BLEIcon4\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 737
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Heart Rate\"], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 2798
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Heart Rate\"]",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 663
+    }
+  ],
+  "checkPoints": []
+}

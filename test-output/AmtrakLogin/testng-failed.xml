@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AmtrakLogin]" parallel="tests">
+  <parameter name="driver.capabilities.deviceName" value="988667325047395643"/>
+  <parameter name="tags" value="@amtrak"/>
+  <test name="BDD Android">
+    <parameter name="driver.capabilities.deviceName" value="F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70"/>
+    <parameter name="tags" value="@amtrak"/>
+    <classes>
+      <class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner"/>
+    </classes>
+  </test> <!-- BDD Android -->
+  <test name="BDD ios">
+    <parameter name="driver.capabilities.deviceName" value="1005AE54187C09D51375DA1700E4E0537782FF23"/>
+    <parameter name="tags" value="@amtrak"/>
+    <classes>
+      <class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner"/>
+    </classes>
+  </test> <!-- BDD ios -->
+  <test name="BDD Galaxy6">
+    <parameter name="driver.capabilities.deviceName" value="1215FC70BAE54004"/>
+    <parameter name="tags" value="@amtrak"/>
+    <classes>
+      <class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner"/>
+    </classes>
+  </test> <!-- BDD Galaxy6 -->
+  <test name="Generic_Android">
+    <parameter name="driver.capabilities.deviceName" value="988667325047395643"/>
+    <parameter name="tags" value="@amtrak"/>
+    <classes>
+      <class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner"/>
+    </classes>
+  </test> <!-- Generic_Android -->
+  <test name="BDD Android(failed)" parallel="tests">
+    <parameter name="driver.capabilities.deviceName" value="F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70"/>
+    <parameter name="tags" value="@amtrak"/>
+    <classes>
+      <class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="setupMethod"/>
+          <include name="beforeClass"/>
+          <include name="setupMethod"/>
+          <include name="beforeClass"/>
+          <include name="setupMethod"/>
+          <include name="beforeClass"/>
+          <include name="setupMethod"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuit"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.perfectomobile.quantum.runners.MyCucumberTestsRunner -->
+    </classes>
+  </test> <!-- BDD Android(failed) -->
+  <test name="BDD Galaxy6(failed)" parallel="tests">
+    <parameter name="driver.capabilities.deviceName" value="1215FC70BAE54004"/>
+    <parameter name="tags" value="@amtrak"/>
+    <classes>
+      <class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="setupMethod"/>
+          <include name="beforeClass"/>
+          <include name="setupMethod"/>
+          <include name="beforeClass"/>
+          <include name="setupMethod"/>
+          <include name="beforeClass"/>
+          <include name="setupMethod"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuit"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.perfectomobile.quantum.runners.MyCucumberTestsRunner -->
+    </classes>
+  </test> <!-- BDD Galaxy6(failed) -->
+</suite> <!-- Failed suite [AmtrakLogin] -->

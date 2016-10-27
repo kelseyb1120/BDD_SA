@@ -1,0 +1,14 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Duplicate step definitions in com.perfectomobile.quantum.steps.PerfectoDeviceSteps.rotateToLandscape() in file:/Users/uzie/Documents/dev/workspace/Quantum/BDDSample/target/classes/ and com.perfectomobile.quantum.steps.PerfectoDeviceSteps.rotateToLandscape() in file:/Users/uzie/Documents/dev/workspace/Quantum/BDDSample/target/classes/",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in com.perfectomobile.quantum.steps.PerfectoDeviceSteps.rotateToLandscape() in file:/Users/uzie/Documents/dev/workspace/Quantum/BDDSample/target/classes/ and com.perfectomobile.quantum.steps.PerfectoDeviceSteps.rotateToLandscape() in file:/Users/uzie/Documents/dev/workspace/Quantum/BDDSample/target/classes/\n\tat cucumber.runtime.RuntimeGlue.addStepDefinition(RuntimeGlue.java:33)\n\tat cucumber.runtime.java.JavaBackend.addStepDefinition(JavaBackend.java:151)\n\tat cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:68)\n\tat cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:41)\n\tat cucumber.runtime.java.JavaBackend.loadGlue(JavaBackend.java:86)\n\tat cucumber.runtime.Runtime.<init>(Runtime.java:91)\n\tat cucumber.runtime.Runtime.<init>(Runtime.java:69)\n\tat cucumber.runtime.Runtime.<init>(Runtime.java:65)\n\tat cucumber.api.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:42)\n\tat com.perfectomobile.quantum.runners.FeatureFactory.setUpClass(FeatureFactory.java:85)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:254)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1149)\n\tat org.testng.TestNG.run(TestNG.java:1057)\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)\n"
+}

@@ -1,0 +1,65 @@
+{
+  "total": 3,
+  "pass": 3,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "zf2.feature"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Perfecto1",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "scriptName": "StarbucksLogin",
+      "javascriptEnabled": true,
+      "user": "uzie@perfectomobile.com",
+      "deviceName": "3208D815A2C25145",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "rotatable": true,
+      "testGridReportUrl": "https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_23_12_2402",
+      "entityType": "remote_web_driver",
+      "serverConnector": "",
+      "deviceName": "3208D815A2C25145",
+      "platform": "ANY",
+      "executionId": "uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_23_12_2402",
+      "password": "",
+      "webdriver.remote.sessionid": "cdc0c581-0f8f-4bee-b1e9-0a151a19056a",
+      "automationName": "Appium",
+      "host": "beta.perfectomobile.com",
+      "singleTestReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_23_12_2402.xml&ownerId=uzie@perfectomobile.com&sharingCode=2eb89a11-92ad-41b3-b329-09ebd689ab9c",
+      "locationContextEnabled": true,
+      "scriptName": "StarbucksLogin",
+      "browserName": "MobileOS",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "reportKey": "PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_23_12_2402.xml",
+      "windTunnelReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_23_12_2402.xml&ownerId=uzie@perfectomobile.com&sharingCode=2eb89a11-92ad-41b3-b329-09ebd689ab9c",
+      "user": "",
+      "cssSelectorsEnabled": true
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "8",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Sep-2016 17:50:25"
+    },
+    "run-parameters": {
+      "baseurl": "http://www.starbucks.com/",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_45",
+      "os.arch": "x86_64",
+      "os.name": "Mac OS X",
+      "user.name": "uzie",
+      "os.version": "10.11.1"
+    }
+  },
+  "startTime": 1474464227391,
+  "endTime": 1474464257572
+}

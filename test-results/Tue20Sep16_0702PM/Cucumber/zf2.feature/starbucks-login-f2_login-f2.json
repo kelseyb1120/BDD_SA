@@ -1,0 +1,69 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoCommonSteps.i_connectToPerfecto()",
+      "result": "passed",
+      "subLogs": [],
+      "duration": 428
+    },
+    {
+      "commandName": "PerfectoCommonSteps.I_click(String)",
+      "args": [
+        "loginBT"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 5010
+    },
+    {
+      "commandName": "StepDef.I_login(String,String)",
+      "args": [
+        "f2f2f2f2f2f",
+        "Perfecto1"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 18801
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I open web page",
+      "type": "TestStepPass",
+      "duration": 428,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"loginBT\"",
+      "type": "TestStepPass",
+      "duration": 5010,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I login with user \"f2f2f2f2f2f\" and password \"Perfecto1\"",
+      "type": "TestStepPass",
+      "duration": 18801,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_9nm6uha1ynxh11508.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] enabled",
+      "type": "Pass",
+      "screenshot": "img/feature_9nm6uha1ynxh11508.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

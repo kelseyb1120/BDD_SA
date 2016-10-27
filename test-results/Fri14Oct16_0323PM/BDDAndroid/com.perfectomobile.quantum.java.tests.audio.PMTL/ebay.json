@@ -1,0 +1,80 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"My eBay, Tab, 2 of 5\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"My eBay, Tab, 2 of 5\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'US1-CLEAN-MCM', ip: '100.85.1.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 691 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://DUMMY_SSO_TENANT_ID.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-14_19_23_48_161, entityType=remote_web_driver, serverConnector=, deviceName=A5E58152551801914DF137179CCE414D7459E610, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-14_19_23_48_161, password=, webdriver.remote.sessionid=b16ed894-06bd-48d9-b2de-c04c546115fa, automationName=Appium, host=adam-test.perfectomobile.com, singleTestReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-14_19_23_48_161.xml&ownerId=uzie@perfectomobile.com&sharingCode=79f964eb-fea6-470c-8c16-f68976932d95, locationContextEnabled=true, scriptName=RemoteWebDriver, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-14_19_23_48_161.xml, windTunnelReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-14_19_23_48_161.xml&ownerId=uzie@perfectomobile.com&sharingCode=79f964eb-fea6-470c-8c16-f68976932d95, user=, cssSelectorsEnabled=true}]\nSession ID: b16ed894-06bd-48d9-b2de-c04c546115fa\n*** Element info: {Using=xpath, value=//*[@label=\"My eBay, Tab, 2 of 5\"]}",
+      "subLogs": [],
+      "duration": 694
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"My eBay, Tab, 2 of 5\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 3270
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"My eBay, Tab, 2 of 5\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1049
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Settings\"], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 2489
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Settings\"]",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 883
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name=\"Sign Out\"], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 2867
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@name=\"Sign Out\"]",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 986
+    }
+  ],
+  "checkPoints": []
+}

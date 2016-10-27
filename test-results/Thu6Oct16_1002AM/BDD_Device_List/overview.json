@@ -1,0 +1,53 @@
+{
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.perfectomobile.quantum.runners.MyCucumberTestsRunner"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Perfecto1",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "platformName": "iOS",
+      "user": "uzie@perfectomobile.com",
+      "deviceName": "[DEVICE_ID]",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "8",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Sep-2016 17:50:25"
+    },
+    "run-parameters": {
+      "driver.retry.wait.sec": "15",
+      "features": "src/test/java/com/perfectomobile/quantum/features",
+      "driver.retry.times": "3",
+      "dryRun": "false",
+      "plugin": "com.qmetry.qaf.automation.cucumber.QAFCucumberFormatter",
+      "glue": "com.perfectomobile.quantum.steps",
+      "driver.capabilities.deviceName": "[DEVICE_ID]",
+      "resources": "resources",
+      "driver.capabilities.platformName": "iOS",
+      "tags": "@tag1"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_45",
+      "os.arch": "x86_64",
+      "host": "UziMac.local",
+      "os.name": "Mac OS X",
+      "user.name": "uzie",
+      "os.version": "10.11.1"
+    }
+  },
+  "startTime": 1475762572524,
+  "endTime": 1475762605183
+}

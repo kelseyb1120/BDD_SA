@@ -1,0 +1,71 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setUpClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1474915930143,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "community login",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1474915940918,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        null
+      ],
+      "metaData": {
+        "description": "Runs Cucumber Feature",
+        "groups": [
+          "cucumber"
+        ],
+        "name": "community login",
+        "resultFileName": "community logindcs",
+        "sign": "MyDataProviderRunner.feature(java.util.Map)[pri:0, instance:com.perfectomobile.quantum.runners.MyDataProviderRunner@12591ac8]"
+      },
+      "dependsOn": [],
+      "startTime": 1474915940923,
+      "duration": 1,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community loginrGw",
+        "name": "community login",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1474915940931,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

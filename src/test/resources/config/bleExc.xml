@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="PerfectoBDD" verbose="0" parallel="tests">
+
+	<test name="BDD Android" enabled="true">
+		<parameter name="driver.retry.times" value="20" />
+		<parameter name="driver.retry.wait.sec" value="15" />
+		<parameter name="driver.capabilities.deviceName" value="F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70"></parameter>
+		<classes>
+			<class name="com.perfectomobile.quantum.java.tests.audio.BLEtest"></class>
+		</classes>
+	</test>
+
+
+
+</suite>
+

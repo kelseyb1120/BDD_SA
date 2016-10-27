@@ -1,0 +1,72 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoApplicationSteps.navigateToURL(String)",
+      "args": [
+        "https://community.perfectomobile.com/"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 3327
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iClick(String)",
+      "args": [
+        "button.search"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 3807
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.iSet(String,String)",
+      "args": [
+        "Appium",
+        "community.search"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 1570
+    },
+    {
+      "commandName": "PerfectoApplicationSteps.asserVisualText(String)",
+      "args": [
+        "Popular"
+      ],
+      "result": "failed",
+      "subLogs": [],
+      "duration": 22676
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I open browser to webpage \"https://community.perfectomobile.com/\"",
+      "type": "TestStepPass",
+      "duration": 3327,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When  I click on \"button.search\"",
+      "type": "TestStepPass",
+      "duration": 3807,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And  I enter \"Appium\" to \"community.search\"",
+      "type": "TestStepPass",
+      "duration": 1570,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I must see text \"Popular\"",
+      "type": "TestStepFail",
+      "duration": 22676,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: Text: \"Popular\" was not found expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\n\tat org.testng.Assert.assertEquals(Assert.java:116)\n\tat org.testng.Assert.assertEquals(Assert.java:190)\n\tat com.perfectomobile.quantum.utils.ApplicationUtils.assertVisualText(ApplicationUtils.java:23)\n\tat com.perfectomobile.quantum.steps.PerfectoApplicationSteps.asserVisualText(PerfectoApplicationSteps.java:276)\n\tat ✽.Then I must see text \"Popular\"(CommunityExample.feature:21)\n"
+}

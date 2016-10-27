@@ -1,0 +1,166 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoCommonSteps.i_connectToPerfecto()",
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.starbucks.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 401
+        }
+      ],
+      "duration": 526
+    },
+    {
+      "commandName": "PerfectoCommonSteps.I_click(String)",
+      "args": [
+        "loginBT"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.starbucks.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 401
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signIn, using=id}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 1671
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: signIn",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 486
+        }
+      ],
+      "duration": 2169
+    },
+    {
+      "commandName": "StepDef.I_login(String,String)",
+      "args": [
+        "f2f2f2f2f2f",
+        "Perfecto1"
+      ],
+      "result": "failed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.starbucks.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 401
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signIn, using=id}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 1671
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: signIn",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 486
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='Username or email'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1261
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='Username or email'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 2806
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //*[@placeholder='Username or email']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 1263
+        }
+      ],
+      "duration": 13420
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I open web page",
+      "type": "TestStepPass",
+      "duration": 526,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"loginBT\"",
+      "type": "TestStepPass",
+      "duration": 2169,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I login with user \"f2f2f2f2f2f\" and password \"Perfecto1\"",
+      "type": "TestStepFail",
+      "duration": 13420,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] not enabled",
+          "type": "Fail",
+          "screenshot": "img/feature_1uydumet7wrie19647.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] not enabled",
+      "type": "Fail",
+      "screenshot": "img/feature_1uydumet7wrie19647.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertEnabled(QAFExtendedWebElement.java:977)\n\tat com.qmetry.qaf.automation.step.CommonStep.assertEnabled(CommonStep.java:1699)\n\tat com.perfectomobile.quantum.steps.StepDef.I_login(StepDef.java:23)\n\tat ✽.Then I login with user \"f2f2f2f2f2f\" and password \"Perfecto1\"(zf2.feature:8)\n"
+}

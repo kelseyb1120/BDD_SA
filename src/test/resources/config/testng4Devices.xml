@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AmtrakLogin" verbose="0" parallel="tests">
+
+	<test name="BDD Android" enabled="true">
+		<parameter name="driver.capabilities.deviceName" value="F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70"></parameter>
+		<parameter name="tags" value="@amtrak"></parameter>
+		<classes>
+			<class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner"></class>
+		</classes>
+	</test>
+	<test name="BDD ios" enabled="true">
+		<parameter name="driver.capabilities.deviceName" value="1005AE54187C09D51375DA1700E4E0537782FF23"></parameter>
+		<parameter name="tags" value="@amtrak"></parameter>
+		<classes>
+			<class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner"></class>
+		</classes>
+	</test>
+	<test name="BDD Galaxy6" enabled="true">
+		<parameter name="driver.capabilities.deviceName" value="1215FC70BAE54004"></parameter>
+		<parameter name="tags" value="@amtrak"></parameter>
+		<classes>
+			<class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner"></class>
+		</classes>
+	</test>
+
+	<test name="Generic_Android" enabled="true">
+		<parameter name="driver.capabilities.deviceName" value="988667325047395643"></parameter>
+			<parameter name="tags" value="@amtrak"></parameter>
+			<classes>
+			<class name="com.perfectomobile.quantum.runners.MyCucumberTestsRunner"></class>
+		</classes>
+	</test>
+
+	 
+</suite>
+

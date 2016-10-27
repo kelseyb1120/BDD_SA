@@ -1,0 +1,19 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "StepDef.closeapp()",
+      "result": "passed",
+      "subLogs": [],
+      "duration": 0
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Then  I close app",
+      "type": "TestStepPass",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

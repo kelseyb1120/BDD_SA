@@ -1,0 +1,126 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@content-desc=\"Contacts\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 450
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@content-desc=\"Contacts\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 606
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@text=\"VERIZON\"], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 890
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@text=\"VERIZON\"]",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 619
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@text=\"1 800-922-0204\"], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 927
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@text=\"1 800-922-0204\"]",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 521
+    },
+    {
+      "commandName": "getCurrentContextHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "NATIVE_APP",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=VISUAL}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE_APP}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@resource-id=\"com.android.incallui:id/endCallButton\"], using=xpath}"
+      ],
+      "result": "id: 3",
+      "subLogs": [],
+      "duration": 423
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@resource-id=\"com.android.incallui:id/endCallButton\"]",
+        "{\"id\":\"3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 773
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: \"true\"\n     Actual: was \"true\"",
+      "type": "Pass",
+      "screenshot": "img/check10_owwmxg887p6m5752.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

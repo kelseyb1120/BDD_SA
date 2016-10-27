@@ -1,0 +1,118 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.starbucks.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6383
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=signIn, using=id}"
+      ],
+      "result": "id: 5",
+      "subLogs": [],
+      "duration": 5349
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: signIn",
+        "{\"id\":\"5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 681
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@placeholder='Username or email'], using=xpath}"
+      ],
+      "result": "id: 6",
+      "subLogs": [],
+      "duration": 4913
+    },
+    {
+      "commandName": "isElementEnabled",
+      "args": [
+        "By.xpath: //*[@placeholder='Username or email']",
+        "{\"id\":\"6\"}"
+      ],
+      "result": "isElementEnabled:true",
+      "subLogs": [],
+      "duration": 1295
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@placeholder='Username or email'], using=xpath}"
+      ],
+      "result": "id: 7",
+      "subLogs": [],
+      "duration": 1052
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@placeholder='Username or email']",
+        "{\"id\":\"7\",\"value\":[\"csvuser1\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 480
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@type='password'], using=xpath}"
+      ],
+      "result": "id: 8",
+      "subLogs": [],
+      "duration": 1324
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@type='password']",
+        "{\"id\":\"8\",\"value\":[\"csvpass1\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 511
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=AT_SignIn_Button, using=id}"
+      ],
+      "result": "id: 9",
+      "subLogs": [],
+      "duration": 1444
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: AT_SignIn_Button",
+        "{\"id\":\"9\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 445
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] enabled",
+      "type": "Pass",
+      "screenshot": "img/datadriven mitch test_125ygucc6thkf39431.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

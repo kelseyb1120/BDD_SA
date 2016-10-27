@@ -1,0 +1,76 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-shani_login-to-community",
+        "name": "community login shani-login to community",
+        "groups": [
+          "@tag1"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475252108041,
+      "duration": 39862,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-shani_login-to-community",
+        "name": "community login shani-login to community",
+        "groups": [
+          "@tag1"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475252110039,
+      "duration": 42695,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-shani_search-community",
+        "name": "community login shani-search community",
+        "groups": [
+          "@tag1"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475252147993,
+      "duration": 17202,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-shani_search-community",
+        "name": "community login shani-search community",
+        "groups": [
+          "@tag1"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475252152816,
+      "duration": 31496,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

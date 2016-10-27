@@ -1,0 +1,16 @@
+{
+  "name": "PerfectoBDD",
+  "status": "pass",
+  "tests": [
+    "BDDAndroid",
+    "BDDios",
+    "BDDGalaxy6",
+    "Generic_Android"
+  ],
+  "total": 4,
+  "pass": 4,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1475587188773,
+  "endTime": 1475587263277
+}

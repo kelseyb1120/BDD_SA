@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PerfectoBDD]" parallel="tests">
+  <parameter name="driver.retry.wait.sec" value="15"/>
+  <parameter name="driver.retry.times" value="5"/>
+  <parameter name="driver.capabilities.deviceName" value="A5E58152551801914DF137179CCE414D7459E610"/>
+  <parameter name="remote.server" value="https://adam-test.perfectomobile.com/nexperience/perfectomobile/wd/hub"/>
+  <test name="BDD Android">
+    <parameter name="driver.retry.wait.sec" value="15"/>
+    <parameter name="driver.retry.times" value="5"/>
+    <parameter name="driver.capabilities.deviceName" value="A5E58152551801914DF137179CCE414D7459E610"/>
+    <parameter name="remote.server" value="https://adam-test.perfectomobile.com/nexperience/perfectomobile/wd/hub"/>
+    <classes>
+      <class name="com.perfectomobile.quantum.java.tests.audio.PMTL"/>
+    </classes>
+  </test> <!-- BDD Android -->
+  <test name="BDD Android(failed)" parallel="tests">
+    <parameter name="driver.retry.wait.sec" value="15"/>
+    <parameter name="driver.retry.times" value="5"/>
+    <parameter name="driver.capabilities.deviceName" value="A5E58152551801914DF137179CCE414D7459E610"/>
+    <parameter name="remote.server" value="https://adam-test.perfectomobile.com/nexperience/perfectomobile/wd/hub"/>
+    <classes>
+      <class name="com.perfectomobile.quantum.java.tests.audio.PMTL">
+        <methods>
+          <include name="ebay"/>
+          <include name="afterSuit"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.perfectomobile.quantum.java.tests.audio.PMTL -->
+    </classes>
+  </test> <!-- BDD Android(failed) -->
+</suite> <!-- Failed suite [PerfectoBDD] -->

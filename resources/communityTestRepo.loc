@@ -1,0 +1,8 @@
+button.login = xpath=//*[text()="Log in"]
+button.menu = xpath=//*[@class="icon ic-menu"]
+login.user = xpath=//*[@id="user_email"]
+login.password = xpath=//*[@id="user_password"]
+button.submit = xpath=//*[@class="submit button button_sign-in sign-in button_full"]
+
+button.search = xpath=//*[@class="icon ic-search"]
+community.search = xpath=//*[@class="header-search-input"]

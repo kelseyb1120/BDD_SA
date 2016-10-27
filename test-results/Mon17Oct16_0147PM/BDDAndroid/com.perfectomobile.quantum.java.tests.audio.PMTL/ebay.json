@@ -1,0 +1,325 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Home, Tab, 1 of 5\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Home, Tab, 1 of 5\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'US1-CLEAN-MCM', ip: '100.85.1.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 12.47 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://DUMMY_SSO_TENANT_ID.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-17_17_47_20_240, entityType=remote_web_driver, serverConnector=, deviceName=A5E58152551801914DF137179CCE414D7459E610, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-17_17_47_20_240, password=, webdriver.remote.sessionid=772d5731-5ffb-409a-bcae-3a314cc26acc, automationName=Appium, host=adam-test.perfectomobile.com, singleTestReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-17_17_47_20_240.xml&ownerId=uzie@perfectomobile.com&sharingCode=39d06eb5-29da-4bcd-8468-926a863c31bd, locationContextEnabled=true, scriptName=RemoteWebDriver, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-17_17_47_20_240.xml, windTunnelReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-17_17_47_20_240.xml&ownerId=uzie@perfectomobile.com&sharingCode=39d06eb5-29da-4bcd-8468-926a863c31bd, user=, cssSelectorsEnabled=true}]\nSession ID: 772d5731-5ffb-409a-bcae-3a314cc26acc\n*** Element info: {Using=xpath, value=//*[@label=\"Home, Tab, 1 of 5\"]}",
+      "subLogs": [],
+      "duration": 12470
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Home, Tab, 1 of 5\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 2755
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Home, Tab, 1 of 5\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 907
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Sign In\"], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 2743
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Sign In\"]",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 944
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name=\"text_password\"], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 2781
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@name=\"text_password\"]",
+        "{\"id\":\"2\",\"value\":[\"PM256!\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 849
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name=\"button_signin\"], using=xpath}"
+      ],
+      "result": "id: 3",
+      "subLogs": [],
+      "duration": 2529
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@name=\"button_signin\"]",
+        "{\"id\":\"3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 818
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Search for anything\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Search for anything\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'US1-CLEAN-MCM', ip: '100.85.1.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.52 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://DUMMY_SSO_TENANT_ID.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-17_17_47_20_240, entityType=remote_web_driver, serverConnector=, deviceName=A5E58152551801914DF137179CCE414D7459E610, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-17_17_47_20_240, password=, webdriver.remote.sessionid=772d5731-5ffb-409a-bcae-3a314cc26acc, automationName=Appium, host=adam-test.perfectomobile.com, singleTestReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-17_17_47_20_240.xml&ownerId=uzie@perfectomobile.com&sharingCode=39d06eb5-29da-4bcd-8468-926a863c31bd, locationContextEnabled=true, scriptName=RemoteWebDriver, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-17_17_47_20_240.xml, windTunnelReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-17_17_47_20_240.xml&ownerId=uzie@perfectomobile.com&sharingCode=39d06eb5-29da-4bcd-8468-926a863c31bd, user=, cssSelectorsEnabled=true}]\nSession ID: 772d5731-5ffb-409a-bcae-3a314cc26acc\n*** Element info: {Using=xpath, value=//*[@label=\"Search for anything\"]}",
+      "subLogs": [],
+      "duration": 1517
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Search for anything\"], using=xpath}"
+      ],
+      "result": "id: 4",
+      "subLogs": [],
+      "duration": 3964
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Search for anything\"]",
+        "{\"id\":\"4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 900
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name=\"textbox_search_bar\"], using=xpath}"
+      ],
+      "result": "id: 5",
+      "subLogs": [],
+      "duration": 3068
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@name=\"textbox_search_bar\"]",
+        "{\"id\":\"5\",\"value\":[\"bike\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 1110
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Search\"], using=xpath}"
+      ],
+      "result": "id: 6",
+      "subLogs": [],
+      "duration": 3465
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Search\"]",
+        "{\"id\":\"6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 846
+    },
+    {
+      "commandName": "getCurrentContextHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "NATIVE_APP",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=VISUAL}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=20000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Mountain Bike, using=link text}"
+      ],
+      "result": "id: 7",
+      "subLogs": [],
+      "duration": 6634
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.linkText: Mountain Bike",
+        "{\"id\":\"7\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 263
+    },
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE_APP}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[contains(@label,'stars')], using=xpath}"
+      ],
+      "result": "id: 8",
+      "subLogs": [],
+      "duration": 16930
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[contains(@label,'stars')]",
+        "{\"id\":\"8\"}"
+      ],
+      "result": "getElementText:",
+      "subLogs": [],
+      "duration": 728
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Back\"], using=xpath}"
+      ],
+      "result": "id: 9",
+      "subLogs": [],
+      "duration": 5039
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Back\"]",
+        "{\"id\":\"9\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1072
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"My eBay, Tab, 2 of 5\"], using=xpath}"
+      ],
+      "result": "id: 10",
+      "subLogs": [],
+      "duration": 5190
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"My eBay, Tab, 2 of 5\"]",
+        "{\"id\":\"10\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 961
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Settings\"], using=xpath}"
+      ],
+      "result": "id: 11",
+      "subLogs": [],
+      "duration": 2560
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Settings\"]",
+        "{\"id\":\"11\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 890
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name=\"Sign Out\"], using=xpath}"
+      ],
+      "result": "id: 12",
+      "subLogs": [],
+      "duration": 2772
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@name=\"Sign Out\"]",
+        "{\"id\":\"12\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 921
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "java.lang.NullPointerException",
+      "type": "Fail",
+      "screenshot": "img/ebay_zgivtcu8f4x42677.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\n\tat com.perfectomobile.quantum.java.tests.audio.PMTL.ebay(PMTL.java:61)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+}

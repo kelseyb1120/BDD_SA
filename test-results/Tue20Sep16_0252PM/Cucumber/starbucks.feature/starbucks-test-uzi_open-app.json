@@ -1,0 +1,74 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoCommonSteps.i_connectToPerfecto()",
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.starbucks.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 399
+        }
+      ],
+      "duration": 544
+    },
+    {
+      "commandName": "PerfectoCommonSteps.click(String)",
+      "args": [
+        "loginBT"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.starbucks.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 399
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signIn, using=id}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3989
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: signIn",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 580
+        }
+      ],
+      "duration": 4584
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I open web page",
+      "type": "TestStepPass",
+      "duration": 544,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I click on \"loginBT\"",
+      "type": "TestStepPass",
+      "duration": 4584,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

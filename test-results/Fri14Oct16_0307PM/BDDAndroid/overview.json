@@ -1,0 +1,69 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.perfectomobile.quantum.java.tests.audio.PMTL"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Perfecto1",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "user": "uzie@perfectomobile.com",
+      "deviceName": "A5E58152551801914DF137179CCE414D7459E610",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "rotatable": "true",
+      "testGridReportUrl": "https://DUMMY_SSO_TENANT_ID.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-14_19_08_05_141",
+      "entityType": "remote_web_driver",
+      "serverConnector": "",
+      "deviceName": "A5E58152551801914DF137179CCE414D7459E610",
+      "platform": "ANY",
+      "executionId": "uzie@perfectomobile.com_RemoteWebDriver_16-10-14_19_08_05_141",
+      "password": "",
+      "webdriver.remote.sessionid": "c2c61ffd-3e1b-41a4-9948-2f6819ba691d",
+      "automationName": "Appium",
+      "host": "adam-test.perfectomobile.com",
+      "singleTestReportUrl": "https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-14_19_08_05_141.xml&ownerId=uzie@perfectomobile.com&sharingCode=7788ca23-3fc9-4e7d-8463-5ade85ec589e",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "browserName": "MobileOS",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "reportKey": "PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-14_19_08_05_141.xml",
+      "windTunnelReportUrl": "https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-14_19_08_05_141.xml&ownerId=uzie@perfectomobile.com&sharingCode=7788ca23-3fc9-4e7d-8463-5ade85ec589e",
+      "user": "",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "8",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Sep-2016 17:50:25"
+    },
+    "run-parameters": {
+      "driver.retry.wait.sec": "15",
+      "driver.retry.times": "5",
+      "resources": "resources",
+      "remote.server": "https://adam-test.perfectomobile.com/nexperience/perfectomobile/wd/hub",
+      "driver.capabilities.deviceName": "A5E58152551801914DF137179CCE414D7459E610"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_45",
+      "os.arch": "x86_64",
+      "host": "UziMac.local",
+      "os.name": "Mac OS X",
+      "user.name": "uzie",
+      "os.version": "10.11.1"
+    }
+  },
+  "startTime": 1476472069255,
+  "endTime": 1476472118802
+}

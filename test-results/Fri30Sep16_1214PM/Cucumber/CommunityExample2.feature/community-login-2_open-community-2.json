@@ -1,0 +1,35 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoApplicationSteps.navigateToURL(String)",
+      "args": [
+        "https://community.perfectomobile.com/"
+      ],
+      "result": "passed",
+      "subLogs": [],
+      "duration": 3591
+    },
+    {
+      "commandName": "MyCommunityTestSteps.goToLogin()",
+      "result": "passed",
+      "subLogs": [],
+      "duration": 5480
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I open browser to webpage \"https://community.perfectomobile.com/\"",
+      "type": "TestStepPass",
+      "duration": 3591,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When  I go to login page",
+      "type": "TestStepPass",
+      "duration": 5480,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

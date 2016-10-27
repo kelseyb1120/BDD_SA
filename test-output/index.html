@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AmtrakLogin">
+              <span class="suite-name border-failed">AmtrakLogin</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AmtrakLogin">
+                    <span>testng4Devices.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AmtrakLogin">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AmtrakLogin">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AmtrakLogin">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AmtrakLogin">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AmtrakLogin">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AmtrakLogin">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AmtrakLogin" class="hide-methods failed suite-AmtrakLogin"> (hide)</a> <!-- hide-methods failed suite-AmtrakLogin -->
+                      <a href="#" panel-name="suite-AmtrakLogin" class="show-methods failed suite-AmtrakLogin"> (show)</a> <!-- show-methods failed suite-AmtrakLogin -->
+                    </span>
+                    <div class="method-list-content failed suite-AmtrakLogin">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmtrakLogin" title="com.perfectomobile.quantum.runners.MyCucumberTestsRunner" hash-for-method="feature({DATAFILE=N/A})">feature({DATAFILE=N/A})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmtrakLogin" title="com.perfectomobile.quantum.runners.MyCucumberTestsRunner" hash-for-method="feature({DATAFILE=N/A})">feature({DATAFILE=N/A})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AmtrakLogin -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AmtrakLogin" class="hide-methods passed suite-AmtrakLogin"> (hide)</a> <!-- hide-methods passed suite-AmtrakLogin -->
+                      <a href="#" panel-name="suite-AmtrakLogin" class="show-methods passed suite-AmtrakLogin"> (show)</a> <!-- show-methods passed suite-AmtrakLogin -->
+                    </span>
+                    <div class="method-list-content passed suite-AmtrakLogin">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmtrakLogin" title="com.perfectomobile.quantum.runners.MyCucumberTestsRunner" hash-for-method="feature({DATAFILE=N/A})">feature({DATAFILE=N/A})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AmtrakLogin" title="com.perfectomobile.quantum.runners.MyCucumberTestsRunner" hash-for-method="feature({DATAFILE=N/A})">feature({DATAFILE=N/A})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AmtrakLogin -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AmtrakLogin" class="panel AmtrakLogin">
+          <div class="suite-AmtrakLogin-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.perfectomobile.quantum.runners.MyCucumberTestsRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature({DATAFILE=N/A})">
+                  </a> <!-- feature({DATAFILE=N/A}) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">({DATAFILE=N/A})</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:101)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.testStart(PerfectoReportiumClient.java:59)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.reportTestStart(ReportiumTestNgListener.java:123)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.beforeInvocation(ReportiumTestNgListener.java:106)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Data Driven Runner Test Description)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature({DATAFILE=N/A})">
+                  </a> <!-- feature({DATAFILE=N/A}) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">({DATAFILE=N/A})</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:101)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.testStart(PerfectoReportiumClient.java:59)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.reportTestStart(ReportiumTestNgListener.java:123)
+	at com.perfecto.reportium.testng.ReportiumTestNgListener.beforeInvocation(ReportiumTestNgListener.java:106)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Data Driven Runner Test Description)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmtrakLogin-class-failed -->
+          <div class="suite-AmtrakLogin-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.perfectomobile.quantum.runners.MyCucumberTestsRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature({DATAFILE=N/A})">
+                  </a> <!-- feature({DATAFILE=N/A}) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">({DATAFILE=N/A})</span>
+                  <em>
+(Data Driven Runner Test Description)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature({DATAFILE=N/A})">
+                  </a> <!-- feature({DATAFILE=N/A}) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">({DATAFILE=N/A})</span>
+                  <em>
+(Data Driven Runner Test Description)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmtrakLogin-class-passed -->
+        </div> <!-- panel AmtrakLogin -->
+        <div panel-name="test-xml-AmtrakLogin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/uzie/Documents/dev/workspace/_Quantum/src/test/resources/config/testng4Devices.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;AmtrakLogin&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;BDD Android&quot;&gt;
+    &lt;parameter name=&quot;driver.capabilities.deviceName&quot; value=&quot;F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70&quot;/&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;@amtrak&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.perfectomobile.quantum.runners.MyCucumberTestsRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BDD Android --&gt;
+  &lt;test name=&quot;BDD ios&quot;&gt;
+    &lt;parameter name=&quot;driver.capabilities.deviceName&quot; value=&quot;1005AE54187C09D51375DA1700E4E0537782FF23&quot;/&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;@amtrak&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.perfectomobile.quantum.runners.MyCucumberTestsRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BDD ios --&gt;
+  &lt;test name=&quot;BDD Galaxy6&quot;&gt;
+    &lt;parameter name=&quot;driver.capabilities.deviceName&quot; value=&quot;1215FC70BAE54004&quot;/&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;@amtrak&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.perfectomobile.quantum.runners.MyCucumberTestsRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BDD Galaxy6 --&gt;
+  &lt;test name=&quot;Generic_Android&quot;&gt;
+    &lt;parameter name=&quot;driver.capabilities.deviceName&quot; value=&quot;988667325047395643&quot;/&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;@amtrak&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.perfectomobile.quantum.runners.MyCucumberTestsRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Generic_Android --&gt;
+&lt;/suite&gt; &lt;!-- AmtrakLogin --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AmtrakLogin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AmtrakLogin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BDD Android (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BDD ios (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BDD Galaxy6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Generic_Android (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AmtrakLogin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AmtrakLogin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Data Driven Group</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">feature</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AmtrakLogin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AmtrakLogin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AmtrakLogin');
+function tableData_AmtrakLogin() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'feature')
+data.setCell(0, 2, 'com.perfectomobile.quantum.runners.MyCucumberTestsRunner')
+data.setCell(0, 3, 63225);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'feature')
+data.setCell(1, 2, 'com.perfectomobile.quantum.runners.MyCucumberTestsRunner')
+data.setCell(1, 3, 57716);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'feature')
+data.setCell(2, 2, 'com.perfectomobile.quantum.runners.MyCucumberTestsRunner')
+data.setCell(2, 3, 7740);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'feature')
+data.setCell(3, 2, 'com.perfectomobile.quantum.runners.MyCucumberTestsRunner')
+data.setCell(3, 3, 7650);
+window.suiteTableData['AmtrakLogin']= { tableData: data, tableDiv: 'times-div-AmtrakLogin'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-AmtrakLogin">
+              </div> <!-- times-div-AmtrakLogin -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AmtrakLogin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AmtrakLogin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">feature({DATAFILE=N/A})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>java.lang.NullPointerException</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">feature({DATAFILE=N/A})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>java.lang.NullPointerException</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">feature({DATAFILE=N/A})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">feature({DATAFILE=N/A})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AmtrakLogin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AmtrakLogin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.perfectomobile.quantum.runners.MyCucumberTestsRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@5a9f4771)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@35040c76)</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@3694c28a)</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@7fcbd9cb)</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@7fcbd9cb)</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@35040c76)</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@3694c28a)</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@5a9f4771)</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(org.testng.TestRunner@3694c28a, @amtrak, com.perfectomobile.quantum.steps, src/test/java/com/perfect...)</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(org.testng.TestRunner@7fcbd9cb, @amtrak, com.perfectomobile.quantum.steps, src/test/java/com/perfect...)</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(org.testng.TestRunner@35040c76, @amtrak, com.perfectomobile.quantum.steps, src/test/java/com/perfect...)</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@5a9f4771)</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(org.testng.TestRunner@5a9f4771, @amtrak, com.perfectomobile.quantum.steps, src/test/java/com/perfect...)</span>
+                <span class="method-start">85 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.perfectomobile.quantum.runners.CucumberTestsRunner.feature(java.util.Map) throws jav...)</span>
+                <span class="method-start">108 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.perfectomobile.quantum.runners.CucumberTestsRunner.feature(java.util.Map) throws jav...)</span>
+                <span class="method-start">108 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.perfectomobile.quantum.runners.CucumberTestsRunner.feature(java.util.Map) throws jav...)</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.perfectomobile.quantum.runners.CucumberTestsRunner.feature(java.util.Map) throws jav...)</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">feature({DATAFILE=N/A})</span>
+                <span class="method-start">114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feature({DATAFILE=N/A})</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">feature({DATAFILE=N/A})</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feature({DATAFILE=N/A})</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@35040c76)</span>
+                <span class="method-start">7774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@35040c76, [TestResult name=Amtrak test status=FAILURE method=CucumberTestsRunn...)</span>
+                <span class="method-start">7778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">7782 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@7fcbd9cb)</span>
+                <span class="method-start">7862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@7fcbd9cb, [TestResult name=Amtrak test status=FAILURE method=CucumberTestsRunn...)</span>
+                <span class="method-start">7867 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">7874 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@35040c76)</span>
+                <span class="method-start">8280 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@35040c76)</span>
+                <span class="method-start">8284 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@7fcbd9cb)</span>
+                <span class="method-start">8419 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@7fcbd9cb)</span>
+                <span class="method-start">8423 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5a9f4771)</span>
+                <span class="method-start">57962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5a9f4771, [TestResult name=Amtrak test status=SUCCESS method=CucumberTestsRunn...)</span>
+                <span class="method-start">57965 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">57968 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3694c28a)</span>
+                <span class="method-start">63442 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3694c28a, [TestResult name=Amtrak test status=SUCCESS method=CucumberTestsRunn...)</span>
+                <span class="method-start">63444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">63446 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@3694c28a)</span>
+                <span class="method-start">72575 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@3694c28a)</span>
+                <span class="method-start">72577 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@5a9f4771)</span>
+                <span class="method-start">79550 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@5a9f4771)</span>
+                <span class="method-start">79552 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@5a9f4771)</span>
+                <span class="method-start">79643 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

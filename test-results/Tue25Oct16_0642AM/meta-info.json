@@ -1,0 +1,16 @@
+{
+  "name": "AmtrakLogin",
+  "status": "fail",
+  "tests": [
+    "BDDAndroid",
+    "BDDios",
+    "BDDGalaxy6",
+    "Generic_Android"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 2,
+  "skip": 0,
+  "startTime": 1477392154161,
+  "endTime": 1477392191486
+}

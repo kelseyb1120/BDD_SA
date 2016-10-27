@@ -1,0 +1,665 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoCommonSteps.i_connectToPerfecto()",
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.starbucks.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1564
+        }
+      ],
+      "duration": 1696
+    },
+    {
+      "commandName": "PerfectoCommonSteps.I_click(String)",
+      "args": [
+        "loginBT"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.starbucks.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1564
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signIn, using=id}"
+          ],
+          "result": "Element with by id 'signIn' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.20 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=id, value=signIn}",
+          "subLogs": [],
+          "duration": 1206
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signIn, using=id}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 12506
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: signIn",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 455
+        }
+      ],
+      "duration": 15182
+    },
+    {
+      "commandName": "StepDef.I_login(String,String)",
+      "args": [
+        "Uzi.eilon@gmail.com",
+        "Perfecto1"
+      ],
+      "result": "passed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.starbucks.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1564
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signIn, using=id}"
+          ],
+          "result": "Element with by id 'signIn' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.20 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=id, value=signIn}",
+          "subLogs": [],
+          "duration": 1206
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signIn, using=id}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 12506
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: signIn",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 455
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='Username or email'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@placeholder='Username or email']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.45 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@placeholder='Username or email']}",
+          "subLogs": [],
+          "duration": 1455
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='Username or email'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 9041
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //*[@placeholder='Username or email']",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 2948
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='Username or email'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1056
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@placeholder='Username or email']",
+            "{\"id\":\"2\",\"value\":[\"Uzi.eilon@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 640
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@type='password'], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 1529
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@type='password']",
+            "{\"id\":\"3\",\"value\":[\"Perfecto1\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 596
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=AT_SignIn_Button, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 1235
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: AT_SignIn_Button",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 538
+        }
+      ],
+      "duration": 23432
+    },
+    {
+      "commandName": "PerfectoCommonSteps.verify_visual(String)",
+      "args": [
+        "Hi, Uzi."
+      ],
+      "result": "failed",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.starbucks.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1564
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signIn, using=id}"
+          ],
+          "result": "Element with by id 'signIn' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.20 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=id, value=signIn}",
+          "subLogs": [],
+          "duration": 1206
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signIn, using=id}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 12506
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: signIn",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 455
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='Username or email'], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@placeholder='Username or email']' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'Beta-MCM', ip: '1.1.95.10', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.45 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@placeholder='Username or email']}",
+          "subLogs": [],
+          "duration": 1455
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='Username or email'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 9041
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //*[@placeholder='Username or email']",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 2948
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='Username or email'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1056
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@placeholder='Username or email']",
+            "{\"id\":\"2\",\"value\":[\"Uzi.eilon@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 640
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@type='password'], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 1529
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@type='password']",
+            "{\"id\":\"3\",\"value\":[\"Perfecto1\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 596
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=AT_SignIn_Button, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 1235
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: AT_SignIn_Button",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 538
+        },
+        {
+          "commandName": "getCurrentContextHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "WEBVIEW_1",
+          "subLogs": [],
+          "duration": 158
+        },
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=VISUAL}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 158
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 211 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 211
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 224 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 224
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 220 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 220
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 223 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 223
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 210 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 211
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 220 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 220
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 215 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 215
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 218 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 218
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 220 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 220
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 223 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 223
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 211 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 211
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 212 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 213
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 222 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 222
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 216 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 217
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 210 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 211
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 228 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 229
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 230 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 230
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 214 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 214
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 230 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 231
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 215 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 215
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 222 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 222
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 218 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 218
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 227 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 227
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 236 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 236
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 228 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 229
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'], using=xpath}"
+          ],
+          "result": "Find elements by xpath is not supported.\nCommand duration or timeout: 251 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '1.50.13.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, entityType=remote_web_driver, serverConnector=, deviceName=3208D815A2C25145, platform=ANY, executionId=uzie@perfectomobile.com_StarbucksLogin_16-09-21_13_33_12_2419, password=, webdriver.remote.sessionid=6d9a3e93-2f0a-4462-94f6-768fa131a71d, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, locationContextEnabled=true, scriptName=StarbucksLogin, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:StarbucksLogin/StarbucksLogin_16-09-21_13_33_12_2419.xml&ownerId=uzie@perfectomobile.com&sharingCode=0aaf80b9-05b4-459a-bcc4-e560c1075e28, user=, cssSelectorsEnabled=true}]\nSession ID: 6d9a3e93-2f0a-4462-94f6-768fa131a71d\n*** Element info: {Using=xpath, value=//*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.']}",
+          "subLogs": [],
+          "duration": 251
+        },
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=WEBVIEW_1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 157
+        }
+      ],
+      "duration": 34380
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I open web page",
+      "type": "TestStepPass",
+      "duration": 1696,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When  I click on \"loginBT\"",
+      "type": "TestStepPass",
+      "duration": 15182,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And  I login with user \"Uzi.eilon@gmail.com\" and password \"Perfecto1\"",
+      "type": "TestStepPass",
+      "duration": 23432,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_flbvwdno9l5b13491.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then  I verify \"Hi, Uzi.\" present visualy",
+      "type": "TestStepFail",
+      "duration": 34380,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] enabled",
+          "type": "Pass",
+          "screenshot": "img/feature_flbvwdno9l5b13491.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected By.xpath: //*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'] present : Actual By.xpath: //*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'] not present",
+          "type": "Fail",
+          "screenshot": "img/feature_167nidesqis5b13492.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Expected By.xpath: //*[@placeholder='Username or email'] enabled : Actual By.xpath: //*[@placeholder='Username or email'] enabled",
+      "type": "Pass",
+      "screenshot": "img/feature_flbvwdno9l5b13491.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected By.xpath: //*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'] present : Actual By.xpath: //*[@name='Hi, Uzi.' or @id='Hi, Uzi.' or @value='Hi, Uzi.'] not present",
+      "type": "Fail",
+      "screenshot": "img/feature_167nidesqis5b13492.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

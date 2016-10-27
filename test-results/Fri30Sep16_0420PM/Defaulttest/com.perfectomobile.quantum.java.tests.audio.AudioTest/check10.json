@@ -1,0 +1,107 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@content-desc=\"Contacts\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 698
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@content-desc=\"Contacts\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 581
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@text=\"VERIZON\"], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 1110
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@text=\"VERIZON\"]",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 521
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@text=\"1 800-922-0204\"], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 923
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@text=\"1 800-922-0204\"]",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 570
+    },
+    {
+      "commandName": "getCurrentContextHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "NATIVE_APP",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=VISUAL}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE_APP}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 22
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: \"true\"\n     Actual: was \"true\"",
+      "type": "Pass",
+      "screenshot": "img/check10_198ipv19u17vm56097.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

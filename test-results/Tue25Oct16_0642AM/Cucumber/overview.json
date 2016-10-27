@@ -1,0 +1,63 @@
+{
+  "total": 2,
+  "pass": 1,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "Amtrak.feature"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Perfecto1",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "user": "uzie@perfectomobile.com",
+      "deviceName": "1005AE54187C09D51375DA1700E4E0537782FF23",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "rotatable": true,
+      "testGridReportUrl": "https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5421",
+      "entityType": "remote_web_driver",
+      "deviceName": "1005AE54187C09D51375DA1700E4E0537782FF23",
+      "serverConnector": "",
+      "platform": "ANY",
+      "executionId": "uzie@perfectomobile.com_RemoteWebDriver_16-10-25_10_42_35_5421",
+      "password": "",
+      "webdriver.remote.sessionid": "bc199705-027a-47fe-846b-93dcd6b7bfb4",
+      "automationName": "Appium",
+      "host": "beta.perfectomobile.com",
+      "singleTestReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5421.xml&ownerId=uzie@perfectomobile.com&sharingCode=117c6f75-0e7b-4491-9a19-73ad0af0d9dd",
+      "locationContextEnabled": true,
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "scriptName": "RemoteWebDriver",
+      "javascriptEnabled": true,
+      "reportKey": "PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5421.xml",
+      "windTunnelReportUrl": "https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161025/RemoteWebDriver_16-10-25_10_42_35_5421.xml&ownerId=uzie@perfectomobile.com&sharingCode=117c6f75-0e7b-4491-9a19-73ad0af0d9dd",
+      "user": "",
+      "cssSelectorsEnabled": true
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "8",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Sep-2016 17:50:25"
+    },
+    "run-parameters": {
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_45",
+      "os.arch": "x86_64",
+      "os.name": "Mac OS X",
+      "user.name": "uzie",
+      "os.version": "10.11.1"
+    }
+  },
+  "startTime": 1477392162323,
+  "endTime": 1477392190920
+}

@@ -1,0 +1,61 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-login-f2_login-f2",
+        "name": "starbucks login f2-login_f2",
+        "groups": [
+          "@tag",
+          "@t2"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474385613624,
+      "duration": 219,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-login-f2_scroll",
+        "name": "starbucks login f2-scroll",
+        "groups": [
+          "@tag",
+          "@t2"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474385614040,
+      "duration": 1343,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-login-f2_close",
+        "name": "starbucks login f2-close",
+        "groups": [
+          "@tag",
+          "@t2"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474385615579,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Home, Tab, 1 of 5\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 4269
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Home, Tab, 1 of 5\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 859
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Sign In\"], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 2953
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Sign In\"]",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1028
+    },
+    {
+      "commandName": "close",
+      "args": [
+        "{}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6451
+    }
+  ],
+  "checkPoints": [],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Attempt to use a closed device\nCommand duration or timeout: 30 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://DUMMY_SSO_TENANT_ID.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-17_21_29_22_256, entityType=remote_web_driver, serverConnector=, deviceName=A5E58152551801914DF137179CCE414D7459E610, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-17_21_29_22_256, password=, webdriver.remote.sessionid=732bb829-948d-4ed1-969f-8713f57dec85, automationName=Appium, host=adam-test.perfectomobile.com, singleTestReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-17_21_29_22_256.xml&ownerId=uzie@perfectomobile.com&sharingCode=b3183aec-bf96-49d5-bbcd-7100b07c8351, locationContextEnabled=true, scriptName=RemoteWebDriver, browserName=MobileOS, takesScreenshot=true, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-17_21_29_22_256.xml, windTunnelReportUrl=https://adam-test.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-10-17_21_29_22_256.xml&ownerId=uzie@perfectomobile.com&sharingCode=b3183aec-bf96-49d5-bbcd-7100b07c8351, user=, cssSelectorsEnabled=true}]\nSession ID: 732bb829-948d-4ed1-969f-8713f57dec85\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:223)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:508)\n\tat com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:101)\n\tat com.perfecto.reportium.client.PerfectoReportiumClient.testStop(PerfectoReportiumClient.java:82)\n\tat com.perfecto.reportium.testng.ReportiumTestNgListener.reportTestEnd(ReportiumTestNgListener.java:238)\n\tat com.perfecto.reportium.testng.ReportiumTestNgListener.afterInvocation(ReportiumTestNgListener.java:114)\n\tat org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)\n\tat org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)\n\tat org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:556)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:699)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.lang.RuntimeException: Attempt to use a closed device\n\tat com.perfectomobile.selenium.server.PerfectoMobileDriver.getDevice(PerfectoMobileDriver.java:773)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:85)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:65)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:47)\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:26)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:744)\n"
+}

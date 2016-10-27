@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupSuit",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1474917692768,
+      "duration": 15,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-example-test_login",
+        "name": "starbucks example test-login",
+        "groups": [
+          "@all",
+          "@web-example"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474464800183,
+      "duration": 74696,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-example-test_shop",
+        "name": "starbucks example test-shop",
+        "groups": [
+          "@all",
+          "@web-example"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474464875061,
+      "duration": 11339,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

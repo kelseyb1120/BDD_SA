@@ -1,0 +1,81 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"BLEIcon4\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 3064
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"BLEIcon4\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1622
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Heart Rate\"], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 4760
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Heart Rate\"]",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1749
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Scan\"], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 3751
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Scan\"]",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1864
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Failed to execute command BLE GenerateChar: Unexpected error occurred while processing command 'BLE GenerateChar'. Error message: String index out of range: -8\nCommand duration or timeout: 1.07 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.fios-router.home', ip: '192.168.1.155', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-11_23_33_05_3710, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-11_23_33_05_3710, password=, webdriver.remote.sessionid=5474d750-6672-4465-8cd9-ced5771342e6, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161011/RemoteWebDriver_16-10-11_23_33_05_3710.xml&ownerId=uzie@perfectomobile.com&sharingCode=b9a156cc-72c8-4677-8e84-eb6e3b300312, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161011/RemoteWebDriver_16-10-11_23_33_05_3710.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161011/RemoteWebDriver_16-10-11_23_33_05_3710.xml&ownerId=uzie@perfectomobile.com&sharingCode=b9a156cc-72c8-4677-8e84-eb6e3b300312, user=, cssSelectorsEnabled=true}]\nSession ID: 5474d750-6672-4465-8cd9-ced5771342e6",
+      "type": "Fail",
+      "screenshot": "img/check10_22fjcxlxajxv64850.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command BLE GenerateChar: Unexpected error occurred while processing command 'BLE GenerateChar'. Error message: String index out of range: -8\nCommand duration or timeout: 1.07 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.fios-router.home', ip: '192.168.1.155', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-10-11_23_33_05_3710, entityType=remote_web_driver, deviceName=F15118A63C51D54E3CEA474B32CFE2ECDAF1AB70, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-10-11_23_33_05_3710, password=, webdriver.remote.sessionid=5474d750-6672-4465-8cd9-ced5771342e6, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161011/RemoteWebDriver_16-10-11_23_33_05_3710.xml&ownerId=uzie@perfectomobile.com&sharingCode=b9a156cc-72c8-4677-8e84-eb6e3b300312, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/161011/RemoteWebDriver_16-10-11_23_33_05_3710.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/161011/RemoteWebDriver_16-10-11_23_33_05_3710.xml&ownerId=uzie@perfectomobile.com&sharingCode=b9a156cc-72c8-4677-8e84-eb6e3b300312, user=, cssSelectorsEnabled=true}]\nSession ID: 5474d750-6672-4465-8cd9-ced5771342e6\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:223)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:508)\n\tat com.perfectomobile.quantum.utils.BLEUtils.BLEStartChar(BLEUtils.java:26)\n\tat com.perfectomobile.quantum.java.tests.audio.BLEtest.check10(BLEtest.java:43)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.lang.RuntimeException: Failed to execute command BLE GenerateChar: Unexpected error occurred while processing command 'BLE GenerateChar'. Error message: String index out of range: -8\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:98)\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:510)\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:581)\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:57)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:95)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:65)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:47)\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:26)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)\n\t... 3 more\n"
+}

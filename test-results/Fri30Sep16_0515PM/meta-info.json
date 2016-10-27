@@ -1,0 +1,13 @@
+{
+  "name": "PerfectoBDD",
+  "status": "pass",
+  "tests": [
+    "BDDAndroid"
+  ],
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1475270104563,
+  "endTime": 1475270199665
+}

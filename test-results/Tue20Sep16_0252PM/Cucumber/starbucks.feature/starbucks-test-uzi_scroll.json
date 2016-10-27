@@ -1,0 +1,32 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoCommonSteps.scroll_down()",
+      "result": "passed",
+      "subLogs": [],
+      "duration": 1402
+    },
+    {
+      "commandName": "StepDef.validat_error()",
+      "result": "passed",
+      "subLogs": [],
+      "duration": 4236
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I scroll down",
+      "type": "TestStepPass",
+      "duration": 1402,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then  I validate an Error",
+      "type": "TestStepPass",
+      "duration": 4236,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

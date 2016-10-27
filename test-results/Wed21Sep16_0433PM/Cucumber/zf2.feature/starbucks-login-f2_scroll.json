@@ -1,0 +1,19 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "PerfectoCommonSteps.scroll_down()",
+      "result": "passed",
+      "subLogs": [],
+      "duration": 1318
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given  I scroll down",
+      "type": "TestStepPass",
+      "duration": 1318,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.perfectomobile.quantum.java.tests.audio.PMTL"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.perfectomobile.quantum.java.tests.audio.PMTL">
+        <methods>
+          <include name="ebay"/>
+          <include name="afterSuit"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.perfectomobile.quantum.java.tests.audio.PMTL -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,14 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "java.lang.AssertionError",
+      "type": "Fail",
+      "screenshot": "img/feature_xua4zx1tmuqq43905.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "cucumber.runtime.CucumberException: java.lang.AssertionError\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)\n\tat com.perfectomobile.quantum.runners.QuantumCucumberRunnerBase.feature(QuantumCucumberRunnerBase.java:79)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\n\tat org.testng.TestRunner.run(TestRunner.java:595)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:348)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:38)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.lang.AssertionError\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertEnabled(QAFExtendedWebElement.java:977)\n\tat com.qmetry.qaf.automation.step.CommonStep.assertEnabled(CommonStep.java:1699)\n\tat com.perfectomobile.quantum.steps.StepDef.I_login(StepDef.java:23)\n\tat ✽.Then I login with user \"f2f2f2f2f2f\" and password \"Perfecto1\"(zf2.feature:8)\n"
+}

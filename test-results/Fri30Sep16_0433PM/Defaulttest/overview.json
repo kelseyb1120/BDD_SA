@@ -1,0 +1,11 @@
+{
+  "total": 2,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.perfectomobile.quantum.java.tests.audio.AudioTest"
+  ],
+  "startTime": 1475267596692,
+  "endTime": 1475267606976
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testData>
+	<starbucks>
+		<users>
+			<user>
+				<username>aaa</username>
+				<password>bbb</password>
+			</user>
+			<user>
+				<username>uzie@perfectomobile.com</username>
+				<password>OPerfecto2</password>
+			</user>
+		</users>
+	</starbucks>
+</testData>

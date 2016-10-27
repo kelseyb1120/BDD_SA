@@ -1,0 +1,80 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-test-uzi_open-app",
+        "name": "starbucks test uzi-open_app",
+        "groups": [
+          "@tag",
+          "@t2"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474385527993,
+      "duration": 31034,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-test-uzi_login",
+        "name": "starbucks test uzi-login",
+        "groups": [
+          "@tag",
+          "@t2"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474385559222,
+      "duration": 32903,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-test-uzi_scroll",
+        "name": "starbucks test uzi-scroll",
+        "groups": [
+          "@tag",
+          "@t2"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474385592314,
+      "duration": 16762,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "starbucks-test-uzi_close",
+        "name": "starbucks test uzi-close",
+        "groups": [
+          "@tag",
+          "@t2"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474385609275,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

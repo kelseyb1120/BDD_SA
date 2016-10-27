@@ -1,0 +1,22 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login_login",
+        "name": "community login-login",
+        "groups": [
+          "@tag"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1474916860114,
+      "duration": 8916,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

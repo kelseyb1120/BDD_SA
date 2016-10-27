@@ -1,0 +1,13 @@
+<suite name="PerfectoBDD" verbose="0" parallel="tests">
+    <test name="BDD Android" enabled="true">
+        <groups>
+            <run>
+                <include name="run"/>
+            </run>
+        </groups>
+        <parameter name="driver.capabilities.deviceName" value="988667325047395643"></parameter>
+        <classes>
+            <class name="com.perfectomobile.quantum.java.tests.MyJavaTest"></class> 
+        </classes>
+    </test>
+</suite>

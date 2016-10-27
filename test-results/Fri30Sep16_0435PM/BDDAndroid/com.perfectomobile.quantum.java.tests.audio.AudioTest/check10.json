@@ -1,0 +1,116 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@content-desc=\"Contacts\"], using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 501
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@content-desc=\"Contacts\"]",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 501
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@text=\"VERIZON\"], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 931
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@text=\"VERIZON\"]",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 407
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@text=\"1 800-922-0204\"], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 1316
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@text=\"1 800-922-0204\"]",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 516
+    },
+    {
+      "commandName": "getCurrentContextHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "NATIVE_APP",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=VISUAL}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "switchToContext",
+      "args": [
+        "{name=NATIVE_APP}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 24
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: \"true\"\n     Actual: was \"true\"",
+      "type": "Pass",
+      "screenshot": "img/check10_1o2f8bzfr4aak50504.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Failed to execute command Audio speech2textJ: Unexpected error occurred while processing command 'Audio speech2textJ'. Error message: No action added to the command \nCommand duration or timeout: 51 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_20_35_38_2245, entityType=remote_web_driver, deviceName=03157DF3A517B128, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_20_35_38_2245, password=, webdriver.remote.sessionid=3357f0ea-2c1b-4f72-8ee9-6fe1fa382f8f, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_20_35_38_2245.xml&ownerId=uzie@perfectomobile.com&sharingCode=e1342ed4-9d71-47f2-a602-3d3142b4f146, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_20_35_38_2245.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_20_35_38_2245.xml&ownerId=uzie@perfectomobile.com&sharingCode=e1342ed4-9d71-47f2-a602-3d3142b4f146, user=, cssSelectorsEnabled=true}]\nSession ID: 3357f0ea-2c1b-4f72-8ee9-6fe1fa382f8f",
+      "type": "Fail",
+      "screenshot": "img/check10_1e3jme0khefgo50505.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command Audio speech2textJ: Unexpected error occurred while processing command 'Audio speech2textJ'. Error message: No action added to the command \nCommand duration or timeout: 51 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UziMac.local', ip: '172.21.31.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_45'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=true, testGridReportUrl=https://beta.reporting-01.perfectomobile.com?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_20_35_38_2245, entityType=remote_web_driver, deviceName=03157DF3A517B128, serverConnector=, platform=ANY, executionId=uzie@perfectomobile.com_RemoteWebDriver_16-09-30_20_35_38_2245, password=, webdriver.remote.sessionid=3357f0ea-2c1b-4f72-8ee9-6fe1fa382f8f, automationName=Appium, host=beta.perfectomobile.com, singleTestReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_20_35_38_2245.xml&ownerId=uzie@perfectomobile.com&sharingCode=e1342ed4-9d71-47f2-a602-3d3142b4f146, locationContextEnabled=true, takesScreenshot=true, browserName=MobileOS, scriptName=RemoteWebDriver, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_20_35_38_2245.xml, windTunnelReportUrl=https://beta.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/160930/RemoteWebDriver_16-09-30_20_35_38_2245.xml&ownerId=uzie@perfectomobile.com&sharingCode=e1342ed4-9d71-47f2-a602-3d3142b4f146, user=, cssSelectorsEnabled=true}]\nSession ID: 3357f0ea-2c1b-4f72-8ee9-6fe1fa382f8f\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:223)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:508)\n\tat com.perfectomobile.quantum.java.tests.audio.AudioUtils.speech2text(AudioUtils.java:30)\n\tat com.perfectomobile.quantum.java.tests.audio.AudioTest.check10(AudioTest.java:33)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\n\tat org.testng.TestRunner.run(TestRunner.java:632)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.lang.RuntimeException: Failed to execute command Audio speech2textJ: Unexpected error occurred while processing command 'Audio speech2textJ'. Error message: No action added to the command \n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:98)\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:510)\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:581)\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:57)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:95)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:65)\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:47)\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:26)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)\n\t... 3 more\n"
+}

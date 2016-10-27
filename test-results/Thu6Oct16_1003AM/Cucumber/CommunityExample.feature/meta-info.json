@@ -1,0 +1,40 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-shani_login-to-community",
+        "name": "community login shani-login to community",
+        "groups": [
+          "@tag1"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475762643686,
+      "duration": 45171,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "community-login-shani_search-community",
+        "name": "community login shani-search community",
+        "groups": [
+          "@tag1"
+        ],
+        "description": "\n"
+      },
+      "dependsOn": [],
+      "startTime": 1475762688940,
+      "duration": 31383,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}
